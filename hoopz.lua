@@ -1,2737 +1,2740 @@
 -- This script was generated using the MoonVeil Obfuscator v1.2.2 [https://moonveil.cc]
 
-local l,ja,xb,Q=table.unpack,pairs,type,getmetatable;
-local b,ia,L,Hb,Qb,m,Za,ab,Mb,R,dc
-ab,L={[10500]=-32408,[-30073]=-28948,[-2444]=-17717,[15690]=13757,[-7259]=-31625,[-2834]=-17717,[17714]=-28948,[-7133]=-23738,[-559]=-23738,[15080]=-23738,[-2119]=30129,[30330]=-32408,[19449]=17380,[-8324]=-28948,[-1017]=-17717,[-29514]=-23738,[-32163]=-28948,[-16497]=-29861,[6951]=22313,[-18009]=-5382},function(r)
-    return ab[r-31554]
+local la,sa,a,kb=pairs,table.unpack,getmetatable,type;
+local Ba,Wa,rb,ta,Ga,Xa,Q,ma,M,Pa,pa
+pa,Xa={[15857]=-26354,[4019]=-6446,[29840]=19279,[-2111]=-6446,[10790]=-8378,[8654]=-13424,[6336]=-8378,[-4911]=-26354,[-27318]=-11249,[29876]=-13424,[27866]=-13545,[32190]=-13424,[18385]=-8378,[25394]=-16646,[-5098]=-6446,[-29028]=25240,[-16536]=17727,[32185]=-6446,[30771]=-13424,[30468]=-27905},function(e)
+    return pa[e+-23916]
 end
-dc=L(28720)
+rb=Xa(30252)
 repeat
     while true do
-        if dc==-29621707651830/1671936990 then
-            b=(getfenv());
-            dc=L(30995);
-        elseif dc==32558850-32582588 then
-            R,Mb,ia=(string.char),(string.byte),(bit32 .bxor);
-            dc=L(49268);
-        elseif dc==-1.5912026129934699e-05*1819252920 then
-            m,Qb,Hb=(select),(table.create),(table.move);
-            dc=L(42054);
-        elseif dc==30362389863760/-936879470 then
-            Za=(function(...)
-                local o=m('#',...)
-                local Bb=Qb(o,nil);
-                Hb({...},1,o,1,Bb)
-                return{[1]=Bb,[2]=o}
+        if rb==28738494228048/-2140829427 then
+            Wa,ma,Pa=(string.char),(string.byte),(bit32 .bxor);
+            rb=Xa(27935);
+        elseif rb==-520153770+520127416 then
+            ta=(function(...)
+                local Wb=M('#',...)
+                local o=Ba(Wb,nil);
+                Q({...},1,Wb,1,o)
+                return{[1]=o,[2]=Wb}
             end);
-            dc=L(24295);
+            rb=Xa(51782);
             break;
+        elseif rb==-398375005+398366627 then
+            Ga=(getfenv());
+            rb=Xa(32570);
+        elseif rb==-366646564+366640118 then
+            M,Ba,Q=(select),(table.create),(table.move);
+            rb=Xa(19005);
         end
     end
-until dc==289997629+-290029254
-local jb,nb=b[(function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+until rb==1922404548-1922418093
+local u,va=Ga[(function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)('2\253\56\249','U\156')]:GetService((function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+    return H
+end)('\148b\158f','\243\3')]:GetService((function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)('\188\132ws\240\145\130uj\192\145','\244\240\3\3\163')),b[(function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+    return H
+end)('\14\216\245V\\#\222\247Ol#','F\172\129&\15')),Ga[(function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)('E \1\178\179]=\t\184\167',')O\96\214\192')](b[(function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+    return H
+end)('\3]\250\190L\27@\242\180X','o2\155\218?')](Ga[(function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)('\231e\237a','\128\4')]:HttpGet((function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+    return H
+end)('\177\f\187\b','\214m')]:HttpGet((function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)('\154\240i$\195\249e$\194\166<\237\197\238\132\205\175\49\253>\vU\233\238,\131D$r\255\18\242#\179\144\248\151\244i7\159\136+}\223\234\30\138\143\203\153\199\168\50\250\52AJ\235\232,\216R%s\163\18\248\96\240\157\209',"\242\132\29T\176\195J\v\176\199K\195\162\135\240\165\218S\136Mn\'\138\129B\247!J\6\209q\157N\156\232\176")))()
-local N=nb[(function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+    return H
+end)('\198q\251\167\241ny@\159+\24\229c\194\157\244\251\213\\\167\134\49\174\162#\152\150\28\193\194$1\173\206\172z\203u\251\180\173\31\55\25\130g:\130)\231\128\254\252\214[\173\204.\172\164#\195\128\29\192\158$;\238\141\161S','\174\5\143\215\130TVo\237Jo\203\4\171\233\156\142\183)\212\227C\205\205M\236\243r\181\236G^\192\225\212\50')))()
+local Kb=va[(function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)('b\23\134pU\0\175xC','!e\227\17')]((function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+    return H
+end)('\221\140C\194\234\155j\202\252','\158\254&\163')]((function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)('\204g,\218\225.\t\226\218','\152\14A\183'),(function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+    return H
+end)('r\218.=_\147\v\5d','&\179CP'),(function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)('\252\147\187\201\198\152\176\209','\175\246\213\189'))
-local Ua,j,e,t=N:NewTab((function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+    return H
+end)(']\31\96\160g\20k\184','\14z\14\212'))
+local ga,p,Da,Nb=Kb:NewTab((function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)(',\195\31\197\22','~\166')),N:NewTab((function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+    return H
+end)('i\226Z\228S',';\135')),Kb:NewTab((function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)('\204\196{\t\236\206c\24','\129\171\rl')),N:NewTab((function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+    return H
+end)('\215\133\26\57\247\143\2(','\154\234l\\')),Kb:NewTab((function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)('\155\15\n\217x\210\174\t\181\30\18\208\57\235\166\b\178','\220ng\188X\159\207g')),N:NewTab((function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+    return H
+end)('\22\170\250\203#\198\191\53\56\187\226\194b\255\183\52?','Q\203\151\174\3\139\222[')),Kb:NewTab((function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)('QpHk~Gq','\2\31+'))
-local za,Pa,p,Cb,_c,gb,Fa,sb,Tb,V,s,U,Vb,ob=Ua:NewSection((function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+    return H
+end)('P$\228j*\235p','\3K\135'))
+local Fa,d,Ya,O,eb,Ib,Ra,jb,Fb,aa,wb,Ab,fa,pb=ga:NewSection((function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)("\'\242b\129\148\25J\199j\128\157\30",'j\147\5\239\241m')),j:NewSection((function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+    return H
+end)('\163\"\140\168\219\128\206\23\132\169\210\135','\238C\235\198\190\244')),p:NewSection((function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)('\v\r\184;\138x?\178\49\157,','X}\221^\238')),j:NewSection((function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+    return H
+end)('\210\146p\204\250\161\160z\198\237\245','\129\226\21\169\158')),p:NewSection((function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)('B\19\190%0D\19\171\56t','\3f\202J\16')),e:NewSection((function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+    return H
+end)('\179P\2]{\181P\23@?','\242%v2[')),Da:NewSection((function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)('(;y\233\228\192\240\241\169\4\139\164\194\188b|\14\179\196\164\29\132\185','\202\161\217\6\\O\208\176\205r\234')),e:NewSection((function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+    return H
+end)("\18\aT0\202\251$.\155\'i\158\254\145\187R5g\27\150>f\131",'\240\157\244\223rt\4o\255Q\b')),Da:NewSection((function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)('\2\205;\254c\229.\251/','C\163O\151')),t:NewSection((function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+    return H
+end)(')\136\238\239H\160\251\234\4','h\230\154\134')),Nb:NewSection((function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)('\209\135\243\133\238','\157\238')),b[(function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+    return H
+end)('7\163\21\161\b','{\202')),Ga[(function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)('\172\5\166\1','\203d')][(function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+    return H
+end)('\152\128\146\132','\255\225')][(function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)('\229\231\\\204\238O\198','\181\139=')][(function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+    return H
+end)('\25\51\18\48:\1:','I_s')][(function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)('\165\130\164\214\53\185\129\166\206<\155','\233\237\199\183Y')],b[(function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+    return H
+end)('\166I\"\210s\186J \202z\152','\234&A\179\31')],Ga[(function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)('\168\209\162\213','\207\176')]:GetService((function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+    return H
+end)('\227[\233_','\132:')]:GetService((function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)('\210:\235\145k\242\57\236\161k','\128O\133\194\14')),nil,0/1039015988,false,false,false,(function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+    return H
+end)('\15\3b\218R/\0e\234R',']v\f\137\55')),nil,-2057205449- -2057205449,false,false,false,(function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)("H\217Z\164\1w\219\198\151\176\238\218\196NO\191k!\3\4\24\27e\27h\196\238\173\240/\140\177\157g@o\141\236\175\4w\19U\139w\181\173y\240\179\168Z\166\165\23\203\243\249\138NT\228_\139<\f\178\170\145\238\237\201\244PE\161y\15\57_\b!B\\Q\224\181\137\209w\184\246\203\'\'o\251\154\246S\24l\5\231>\161\206:\149\202\172*\211\128\30\138\233\196\221\31p",' \173.\212rM\244\233\243\217\157\185\171<+\145\bNn+yk\f4\31\161\140\197\159@\231\194\178VsW\186\217\157<G!b\184F\140\156N\199\128\153m\137\242z\187\153\172\179}')
-local function aa(Qa)
-    local C,O,W,T,Xa,Ma,Sa,Oa,d,hc,x,v,yb,ma
-    Sa,v={[2686]=15720,[-17262]=-7366,[-11277]=-4607,[32734]=-10682,[3240]=20782,[-27439]=-3537,[11513]=22503,[19388]=-11093,[29915]=-4603,[-13798]=10863,[-30495]=3611,[-29664]=-28672,[22358]=24256,[7502]=-2546,[-9434]=27652,[21599]=-19853,[-18094]=-8752,[1344]=9155,[26791]=24055,[29587]=28210,[4416]=-1343,[-20079]=10216,[19628]=-19672,[-17468]=-15594,[-24562]=6564,[-23487]=31055,[-24558]=-7601,[-3087]=23540,[-10951]=26885,[18217]=-3200,[-3476]=11885,[-16245]=-24905,[13835]=6246,[20321]=20337,[12335]=5835,[-15109]=11808,[-7273]=4132,[-4636]=-13286,[8622]=26593,[3443]=4968,[28995]=26593,[23350]=11344,[-10625]=-12205,[-610]=24256,[-9228]=-17433,[253]=-13928,[31146]=9155,[-13604]=-17104,[17294]=4724,[18566]=-21436,[30569]=-9697,[-27614]=-12822,[-15038]=3108,[-25706]=3110,[-25472]=29566,[-2409]=-13624,[19972]=17649,[16671]=20622,[8614]=-19853,[18105]=4968,[-11720]=8867,[-4037]=11282,[-14555]=-23213,[15208]=-430,[16148]=4968,[9157]=20940,[-14194]=24112,[-11537]=-1343,[-20660]=-30385,[28587]=12694,[-26730]=-1247,[-16370]=-30385},function(wb)
-        return Sa[wb- -10752]
+    return H
+end)("\'h\193z\137\190\249j/8\96\27;3(\170n\175\222\50\237\255\0=5r*\142\6=\197C\152\127A\132Kqs\168(\21\211\139\223\\\132\49\28\136b \127\a\177\54P\210V-;U\196U\180\197\144\6)fc\b\v-\"\180|\129\228i\253\197\'z\fVq\170\'e\241\4\206?&\132=\a*\255Gj\131\231\150H\231ry\241fP\n\"\184wJ\239\1|\31","O\28\181\n\250\132\214EKQ\19xTAL\132\r\192\179\29\140\143i\18B\23H\230iR\174\48\183Nr\188|DA\144\24\'\228\184\238e\181\6+\187S\23PP\220F:\135o\30")
+local function Oa(Ua)
+    local L,bb,yb,ec,tb,R,_c,c,Qb,hc,D,Ca,Vb,g
+    D,Qb={[-22337]=26609,[12345]=26609,[29377]=-32509,[-3785]=8998,[-15043]=-27024,[-1229]=9846,[-19195]=5328,[-12225]=16914,[-589]=8998,[23640]=26609,[31884]=-16381,[-29338]=10979,[-23903]=10784,[-27388]=-29333,[-23178]=9713,[-4785]=32513,[-3676]=10968,[21742]=-12053,[27176]=32624,[3570]=-17017,[32251]=28823,[-15132]=-11054,[19657]=-2408,[-15913]=16274,[-22549]=-29052,[-14353]=-30319,[12307]=-11176,[12054]=-20006,[-19460]=-27976,[-18406]=2943,[-29861]=18182,[25188]=25245,[32334]=24893,[27953]=-2704,[-15190]=31637,[-19627]=-3265,[10974]=-18191,[10066]=992,[-28439]=-7310,[-27001]=9675,[23744]=-26598,[-11782]=26609,[-11317]=23060,[-15314]=6885,[31223]=8364,[7283]=-24638,[-19770]=-29052,[-14985]=19015,[-9092]=-2297,[-24763]=4512,[-32448]=9452,[-9638]=-27718,[-10353]=26609,[-8594]=10497,[-12109]=-26849,[30747]=11819,[29788]=-26457,[21336]=-18601,[30899]=-15808,[21297]=-15488,[-7998]=-30859,[25244]=17827,[-9233]=-31633,[3949]=-26849,[11413]=-1685,[-6721]=10784,[16572]=13387,[-9490]=16144,[10757]=-24638,[-22399]=3969,[-15130]=-138,[-3910]=-9485},function(Va)
+        return D[Va-6965]
     end
-    Oa=v(-6336)
+    _c=Qb(-5144)
     repeat
         while true do
-            if Oa==-33173727+33158951 then
-                W=b[l(W[1],1,W[2])]
-                Oa=25079169164967/1749261991
-            elseif Oa==643867082+-643887542 then
-                Xa=Xa(ma)
-                Oa=v(7353)
-            elseif Oa==1367643936+-1367637690 then
-                O=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+            if _c==13384748347992/-661857704 then
+                Vb='\174\204\22\164\179'
+                _c=Qb(-17798)
+            elseif _c==-1874008524+1874019770 then
+                Vb='>\146L\167\52'
+                _c=Qb(-1629)
+            elseif _c==-5.4242979103568865e-06*423464942 then
+                Vb={[Vb]=pb,[g]=Ca,[ec]=bb,[R]=hc}
+                _c=Qb(37864)
+            elseif _c==-8.6560554025687782e-06*2051280771 then
+                bb=ec
+                _c=Qb(-12495)
+            elseif _c==2087072054-2087092060 then
+                ec=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)(O,C))
-                Oa=628226482800/24520940
-            elseif Oa==-1410078853+1410109908 then
-                O=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)(ec,bb))
+                _c=Qb(-2673)
+            elseif _c==-308126406+308153281 then
+                ec=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)(O,C))
-                Oa=v(-37482)
-            elseif Oa==-1.3589830537973095e-05*-1784864052 then
-                O=C
-                Oa=3.0174747879622472e-05*-448885275
-            elseif Oa==-1331682443+1331714145 then
-                yb='\202\188\230'
-                Oa=-1547121563+1547100047
-            elseif Oa==-19617110- -19603182 then
-                O='\251'
-                Oa=1877713347+-1877693311
-            elseif Oa==-1588226939+1588237155 then
-                W=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)(ec,bb))
+                _c=-2654400001484/-907177034
+            elseif _c==-1210521375+1210532159 then
+                yb=L;
+                _c=14465211263316/465328806;
+            elseif _c==-2020886990- -2020886186 then
+                Vb=L
+                _c=6064699428060/-279569420
+            elseif _c==-317199892+317184404 then
+                g='a'
+                _c=-1899715990+1899715434
+            elseif _c==-656815654+656818597 then
+                R='\251T\184'
+                _c=12157126+-12148262
+            elseif _c==1113974261+-1113945438 then
+                tb='\154sbo\171\96\175?'
+                _c=1631720939+-1631740390
+            elseif _c==40253779030410/1594524818 then
+                g=Ca
+                _c=Qb(39299)
+            elseif _c==34859294458197/-1916293467 then
+                L=Ga[L]
+                _c=-1870924586- -1870954457
+            elseif _c==1783536514-1783505428 then
+                L='\198\184b\212\225\203\189c\193\192\218'
+                _c=34300055977740/-1696091380
+            elseif _c==32671513534628/1162232348 then
+                g=Ga[sa(g[1],1,g[2])]
+                _c=Qb(19272)
+            elseif _c==-1.7165879401460398e-06*-1704544190 then
+                ec=Ga[sa(ec[1],1,ec[2])]
+                _c=-1.2334896941874376e-07*729637227
+            elseif _c==-302372023+302371885 then
+                g='\178\184\175'
+                _c=Qb(-8948)
+            elseif _c==-921447742598/49280551 then
+                Vb=L
+                _c=Qb(-8020)
+            elseif _c==-126290275+126306419 then
+                ec=ec[sa(bb[1],1,bb[2])]
+                _c=-9.254990458326883e-06*1918532502
+            elseif _c==-12873549970685/1115849005 then
+                Vb='m\150u'
+                _c=-1.7482618868562438e-05*778544685
+            elseif _c==1.1164304448486178e-05*-1415941322 then
+                L=L(Vb)
+                _c=Qb(-4817)
+            elseif _c==1076584962-1076572083 then
+                tb='\20\29'
+                _c=Qb(2180)
+            elseif _c==-1592446557+1592457525 then
+                R='\2\196:'
+                _c=356268547-356273028
+            elseif _c==-22401886679520/-1318533648 then
+                Ca=(g)
+                _c=Qb(18378)
+            elseif _c==76195259+-76190747 then
+                L=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)(W,hc))
-                Oa=-7.4143363975888481e-06*1992895818
-            elseif Oa==2.1379113942305105e-05*1243877556 then
-                O=C
-                Oa=v(21982)
-            elseif Oa==5.1698249278717716e-05*-52342198 then
-                O=(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)(O,C)
-                Oa=v(8636)
-            elseif Oa==1724873200-1724859830 then
-                C=hc
-                Oa=v(-2138)
-            elseif Oa==16806311359596/2000513196 then
-                Xa=(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)(Xa,ma)
-                Oa=v(-25307)
-            elseif Oa==-3629547259830/145735686 then
-                Xa='\244\222\228J\203\249\219\229_\234\232'
-                Oa=6.2004194401385976e-06*-663503500
-            elseif Oa==-1902945772+1902945342 then
-                if not C then
-                    Oa=v(-11362)
+                    return H
+                end)(L,Vb))
+                _c=1.141509547323672e-06*2134016317
+            elseif _c==-12213673841690/-642317846 then
+                if Vb then
+                    _c=Qb(-8349)
                     break
                 end
-                Oa=-4.3738703340786935e-06*1118231595
-            elseif Oa==1.5621827523562497e-05*-1170861730 then
-                hc='\201'
-                Oa=v(7465)
-            elseif Oa==-1.9301126107441303e-05*382723783 then
-                ma=Xa
-                Oa=v(9220)
-            elseif Oa==-1515671437+1515661740 then
-                W=W[l(hc[1],1,hc[2])]
-                Oa=-10678391913500/-574879780
-            elseif Oa==1.4451626282376145e-05*-1497409328 then
-                hc='u\200}r\200\127s'
-                Oa=1001220244-1001202732
-            elseif Oa==-33608832- -33626481 then
-                if ma then
-                    Oa=v(-13161)
+                _c=Qb(-8165)
+            elseif _c==-495652774473/25482123 then
+                R=(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(R,tb)
+                _c=-9803469998840/1345152305
+            elseif _c==915432079+-915437632 then
+                if Vb then
+                    _c=Qb(-2268)
                     break
                 end
-                Oa=38220753591165/-1237518329
-            elseif Oa==-1757198652- -1757195115 then
-                Xa='\v\224\171\2\189\6\229\170\23\156\23'
-                Oa=-1424569832+1424571902
-            elseif Oa==514368829-514385196 then
-                C='\169'
-                Oa=14725218828018/-628906587
-            elseif Oa==2110947338+-2110952951 then
-                Xa={[Xa]=Qa}
-                Oa=v(-31412)
-            elseif Oa==617020123-617017013 then
-                ma=Xa
-                Oa=v(-40416)
-            elseif Oa==913452119-913434605 then
-                W=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                _c=Qb(5736)
+            elseif _c==-7640482196480/426366194 then
+                hc=c(tb,yb)
+                _c=Qb(-2127)
+            elseif _c==1930914112-1930944309 then
+                Ca='\213\203\214\208'
+                _c=Qb(-15434)
+            elseif _c==0.00012022958351685359*270424292 then
+                R=(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)(W,hc))
-                Oa=-1.1255940831020384e-05*1462871940
-            elseif Oa==-15719708527648/1796127574 then
-                hc={[hc]=yb}
-                Oa=v(-22029)
-            elseif Oa==-2.9784459253623505e-05*749048348 then
-                if ma then
-                    Oa=v(-35310)
+                    return H
+                end)(R,tb)
+                _c=Qb(-12662)
+            elseif _c==7085793813449/346951663 then
+                bb="\139\n\29\248\242\230\188H\'\245\231\237"
+                _c=Qb(36753)
+            elseif _c==-2.2154962269716849e-05*1427806539 then
+                L=Vb
+                _c=8.5642024297605228e-07*-938791448
+            elseif _c==97349756996/-175089491 then
+                Vb=(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(Vb,g)
+                _c=45065372847312/-2053279244
+            elseif _c==-2.7668775739523002e-05*-427160208 then
+                bb=(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(bb,R)
+                _c=0.0016125609375017668*7958769
+            elseif _c==13679375130500/480652675 then
+                bb=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(bb,R))
+                _c=1867169376-1867150758
+            elseif _c==1153988264-1154016240 then
+                Ca=bb
+                _c=6.7634923715763096e-05*373253914
+            elseif _c==1.2870645747358435e-05*756061521 then
+                g=Ga[sa(g[1],1,g[2])]
+                _c=Qb(-5260)
+            elseif _c==1452188602-1452210213 then
+                if not Ca then
+                    _c=Qb(38849)
                     break
                 end
-                Oa=-1464920500- -1464918185
-            elseif Oa==-1017091047+1017088732 then
-                O='\218\208\199'
-                Oa=2067905362+-2067921729
-            elseif Oa==985094817-985074035 then
-                ma=C
-                Oa=-7348018418936/539343689
-            elseif Oa==-2.50003035561497e-05*-941588567 then
-                d='\252\132'
-                Oa=4.1264075658889225e-05*-625774347
-            elseif Oa==-40644941687906/-1374718991 then
-                ma=C
-                Oa=1.3898351840517583e-05*1506653468
-            elseif Oa==-1927545967+1927541364 then
-                W=W[l(hc[1],1,hc[2])]
-                Oa=v(-28014)
-            elseif Oa==-295618810+295593793 then
-                C=O
-                Oa=4.3620362613941143e-06*2104750958
-            elseif Oa==-2.5909150578682968e-05*914117193 then
-                d=jb
-                Oa=v(12598)
-            elseif Oa==-1534622742+1534615019 then
-                W='6\248#\26\248\48\r'
-                Oa=-9.6922074754161023e-05*254245486
-            elseif Oa==2056419944+-2056435538 then
-                W='\172\180'
-                Oa=271751636-271773251
-            elseif Oa==723981683-723998787 then
-                O='\218i\231\255c\247'
-                Oa=v(8876)
-            elseif Oa==-12957973974852/-1974097193 then
-                d='\138j\137X\223G\253\55'
-                Oa=-46479131915328/1911305696
-            elseif Oa==1932824818-1932806243 then
-                hc=W
-                Oa=17564260410690/1313706837
-            elseif Oa==1324845769-1324849883 then
-                ma='\156\170\144:\153'
-                Oa=-4516035239144/235676612
-            elseif Oa==2.5903713661758676e-05*930831784 then
-                yb='\22\140q'
-                Oa=v(-21377)
-            elseif Oa==-3.3982557777534427e-05*-813711557 then
-                ma='\174\137\151'
-                Oa=v(-10499)
-            elseif Oa==-1400004765- -1399984912 then
-                O=C
-                Oa=1896115351+-1896140620
-            elseif Oa==-137196011- -137216951 then
-                Xa=ma
-                Oa=v(20394)
-            elseif Oa==-6.9000821570964709e-06*-845642105 then
-                W='\186\176\167'
-                Oa=14688955-14707246
-            elseif Oa==-2.2900151935544777e-05*-1174009678 then
-                ma={[ma]=ob,[O]=C,[W]=hc,[yb]=x}
-                Oa=42179585179380/-2061563303
-            elseif Oa==-1300938127+1300930761 then
-                hc=W
-                Oa=v(17835)
-            elseif Oa==384341242+-384352335 then
-                C='\252\251\255\224'
-                Oa=v(-28220)
-            elseif Oa==-1108873223+1108871880 then
-                Xa='XV\3O\\\3O'
-                Oa=v(5919)
-            elseif Oa==19785953-19789104 then
-                O='\t\179\155\23\170\157'
-                Oa=v(-3250)
-            elseif Oa==-1240795431+1240807239 then
-                hc=(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                _c=41221306587076/-1533930212
+            elseif _c==701668287-701670991 then
+                ec=(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)(hc,yb)
-                Oa=v(761)
-            elseif Oa==288452757+-288477075 then
-                yb=(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)(yb,d)
-                Oa=v(-28846)
-            elseif Oa==377081774-377107596 then
-                yb=(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)(yb,d)
-                Oa=2.9471115448595213e-05*-803634326
-            elseif Oa==197170266+-197189428 then
-                Xa=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)(Xa,ma))
-                Oa=v(6542)
-            elseif Oa==-1993964228- -1993979845 then
-                hc='\255z\200Bi\r\200\56\242O|\6'
-                Oa=v(7814)
-            elseif Oa==2750974013090/114361838 then
-                C=O
-                Oa=v(-14789)
-            elseif Oa==-1032124104- -1032135448 then
-                T=d.JSONEncode
-                Oa=18254880279735/1142143545
-            elseif Oa==9.4293321144681855e-06*-1436475016 then
-                C=(O)
-                Oa=v(-7512)
-            elseif Oa==-327874053+327883208 then
-                b[(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)('\249\165\"\170\52\244\160#\191\21\229','\145\209V\218f')]=Xa;
-                if b[(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)('\238\187bM\193\227\190cX\224\242','\134\207\22=\147')]then
-                    Oa=v(-38191)
-                    break
-                end
-                Oa=2140560646+-2140555678
-            elseif Oa==-1.1398889401296653e-05*1570591605 then
-                W='hdev}c'
-                Oa=-2.8816910884867635e-05*-867719656
-            elseif Oa==0.0032484777874950579*-6598783 then
-                yb='\188\21\166\54\fc'
-                Oa=v(-25861)
-            elseif Oa==334042083-334038340 then
-                hc='\207\218'
-                Oa=v(-30831)
-            elseif Oa==-1588599611- -1588569226 then
-                Ma=Xa;
-                Oa=v(-26997);
-            elseif Oa==4.0278761138395065e-05*315153685 then
-                C=hc
-                Oa=v(11606)
-            elseif Oa==-1.3347743102342366e-05*-1873350409 then
-                hc='\14\b\16'
-                Oa=1990957751+-1990940237
-            elseif Oa==2694421414866/-1058295921 then
-                C='o\223\238'
-                Oa=v(-34239)
-            elseif Oa==2219307254758/196712219 then
-                if not C then
-                    Oa=v(-2130)
-                    break
-                end
-                Oa=-505823192- -505805289
-            elseif Oa==90305821+-90301097 then
-                Xa=b[l(Xa[1],1,Xa[2])]
-                Oa=v(-18025)
-            elseif Oa==-810643123- -810663159 then
-                ma=(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)(ma,O)
-                Oa=v(-24356)
-            elseif Oa==-547233536- -547237147 then
-                ma=C
-                Oa=-5358575866611/704983011
-            elseif Oa==2110486713-2110483605 then
-                Xa=(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)(Xa,ma)
-                Oa=-1733695753+1733690140
-            elseif Oa==-7435969004256/-232898052 then
-                W=b[l(W[1],1,W[2])]
-                Oa=-1578790092- -1578765343
-            elseif Oa==2.5812819338166171e-05*192462510 then
-                Oa=v(-14228);
+                    return H
+                end)(ec,bb)
+                _c=2.7162811753663991e-05*751873561
+            elseif _c==-1.2148797292371514e-05*1838782841 then
+                ec='\206\196\211'
+                _c=Qb(26622)
+            elseif _c==-1610777581+1610790968 then
+                ec='\133\214\250\169\214\233\190'
+                _c=-1656999127- -1656976565
+            elseif _c==56707593797247/-1870364913 then
+                bb='\143\149'
+                _c=960009229-959982354
+            elseif _c==1028771299-1028792309 then
+                R='Vrpd'
+                _c=299391382-299378503
+            elseif _c==405722972+-405729323 then
+                ec=ec[sa(bb[1],1,bb[2])]
+                _c=-1936561982- -1936573323
+            elseif _c==-1.0674459249645752e-05*2113643368 then
+                bb='\205\179\155'
+                _c=Qb(34918)
+            elseif _c==42797822734590/1608396510 then
+                _c=Qb(-1033);
                 break;
-            elseif Oa==1.0017422327972179e-05*916503238 then
-                if not C then
-                    Oa=v(10847)
+            elseif _c==8.7402786720377714e-06*1468374234 then
+                R='\251\3\18\3\194\3\206K\243\28\f@\193\19\192Q'
+                _c=Qb(39216)
+            elseif _c==1206970045-1206969053 then
+                Ca='f\2\187'
+                _c=-4.4357951746328202e-07*-1289509496
+            elseif _c==519651335+-519649817 then
+                c=tb.JSONEncode
+                _c=37178014540800/-2074665990
+            elseif _c==-2.5834846490631086e-05*658683999 then
+                Vb=Ca
+                _c=1293324092-1293317207
+            elseif _c==1353821112-1353850164 then
+                g=Ca
+                _c=2.3948361885249779e-05*709443096
+            elseif _c==5.3687721837785475e-06*1809165982 then
+                g=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(g,Ca))
+                _c=-12684187236280/-1609668431
+            elseif _c==1125036286+-1125062884 then
+                g=(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(g,Ca)
+                _c=1652044918+-1652075115
+            elseif _c==4.9759194680839992e-08*1487162332 then
+                bb=ec
+                _c=Qb(-22896)
+            elseif _c==-1443950338+1443959202 then
+                bb=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(bb,R))
+                _c=Qb(-2525)
+            elseif _c==-24385273929104/-2045058196 then
+                if not Ca then
+                    _c=Qb(-15584)
                     break
                 end
-                Oa=v(1583)
-            elseif Oa==1450462582-1450476206 then
-                Xa=ma
-                Oa=v(-36458)
-            elseif Oa==2.636012920961125e-06*1030723324 then
-                hc=W
-                Oa=v(-8066)
-            elseif Oa==47350924561643/-2039845111 then
-                Xa=b[Xa]
-                Oa=v(-20186)
-            elseif Oa==-1.9534647375800515e-05*1293547793 then
-                C=(O)
-                Oa=v(-41247)
-            elseif Oa==-13490871305898/1262953689 then
-                C=(O)
-                Oa=v(-36224)
-            elseif Oa==2012661014+-2012662261 then
-                O=b[l(O[1],1,O[2])]
-                Oa=v(16039)
-            elseif Oa==15011013750722/-1466348906 then
-                hc=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                _c=Qb(-8167)
+            elseif _c==157062004-157052552 then
+                ec=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)(hc,yb))
-                Oa=149853326+-149834911
-            elseif Oa==-437041498+437038298 then
-                W=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)(W,hc))
-                Oa=54334356-54302428
-            elseif Oa==-13929025521702/-901030178 then
-                C=O
-                Oa=v(4456)
-            elseif Oa==-27803723525030/-1509841082 then
-                W=W[l(hc[1],1,hc[2])]
-                Oa=165685562-165682845
-            elseif Oa==-6311982160872/256147316 then
-                hc='~\157B'
-                Oa=v(-38366)
-            elseif Oa==-2105846526+2105815641 then
-                O='u\202i\206'
-                Oa=v(9569)
-            elseif Oa==6017115420056/-305872073 then
-                C='\151\f\147'
-                Oa=2770111206852/-1023692242
-            elseif Oa==1466689383-1466701588 then
-                hc=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)(hc,yb))
-                Oa=v(19817)
-            elseif Oa==3319614509415/163230295 then
-                C='\29\190'
-                Oa=v(3083)
-            elseif Oa==-4.2472379403099577e-05*-573973023 then
-                O=b[l(O[1],1,O[2])]
-                Oa=-2004094606+2004069589
-            elseif Oa==-637121576+637137296 then
-                C=hc
-                Oa=v(18243)
-            elseif Oa==1995365042+-1995386657 then
-                C=(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)(C,W)
-                Oa=-1916481726+1916474003
-            elseif Oa==-8510230069848/-2059591014 then
-                ma=Xa
-                Oa=-892685021- -892662711
-            elseif Oa==248277854-248282461 then
-                yb='\190\235\152\253'
-                Oa=v(-13839)
-            elseif Oa==-25908417178226/1573449361 then
-                W=b[l(W[1],1,W[2])]
-                Oa=40755401275720/-1883336473
-            elseif Oa==-1240183210- -1240199193 then
-                x=T(d,Ma)
-                Oa=v(-21703)
-            elseif Oa==7.3482691348116969e-06*-665598920 then
-                W='\167\174\187\170'
-                Oa=4266037533617/1139737519
-            elseif Oa==-1040741084504/-59430167 then
-                yb='\a\173\f'
-                Oa=1244675371+-1244685608
-            elseif Oa==460732924+-460707304 then
-                O=b[l(O[1],1,O[2])]
-                Oa=-592419912- -592435371
-            elseif Oa==637465932-637463862 then
-                ma='c\148\223r\239'
-                Oa=-1321901088- -1321909489
-            elseif Oa==-4212587500953/-187201151 then
-                yb='\235\26\249\52\182$\156C\227\5\231w\181\52\146Y'
-                Oa=v(-35314)
-            elseif Oa==-998927097- -998902348 then
-                hc='d\233\0c\233\2b'
-                Oa=v(-24946)
-            elseif Oa==-1393378241+1393365419 then
-                W=(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)(W,hc)
-                Oa=-652029678+652045295
-            elseif Oa==-1367498875- -1367519497 then
-                ma=';9m'
-                Oa=v(-25790)
-            elseif Oa==2083232934-2083256348 then
-                O=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)(O,C))
-                Oa=-920514223- -920538601
-            elseif Oa==1923047849+-1923069365 then
-                hc=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)(hc,yb))
-                Oa=v(19163)
-            elseif Oa==-1.3792569198653037e-05*-1039472762 then
-                hc='\184\217\151\191\217\149\190'
-                Oa=1874868815-1874837113
-            elseif Oa==-1665754371- -1665746770 then
-                Xa=ma
-                Oa=1711490419+-1711497806
-            elseif Oa==-41359533121536/1442506038 then
-                if ma then
-                    Oa=v(-1595)
+                    return H
+                end)(ec,bb))
+                _c=Qb(-8225)
+            elseif _c==-11496353190850/1572688535 then
+                Ca='z\25]'
+                _c=Qb(30709)
+            elseif _c==31069294+-31052380 then
+                Ca=g
+                _c=-293460362- -293472286
+            elseif _c==-27151884364908/-1458367406 then
+                ec=ec[sa(bb[1],1,bb[2])]
+                _c=1136525210-1136525136
+            elseif _c==16901222107308/-1369407074 then
+                if not Ca then
+                    _c=Qb(32153)
                     break
                 end
-                Oa=-429097024+429093873
+                _c=440616980+-440639319
+            elseif _c==691084979-691111436 then
+                R='\200es\140\151\136'
+                _c=Qb(37712)
+            elseif _c==4346500992600/-969984600 then
+                bb=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(bb,R))
+                _c=-1378689484- -1378683133
+            elseif _c==-764453101+764484738 then
+                ec=Ga[sa(ec[1],1,ec[2])]
+                _c=Qb(-12230)
+            elseif _c==-4.3110309327247877e-05*571510629 then
+                Ga[(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)('\201\159\162a\211\196\154\163t\242\213','\161\235\214\17\129')]=L;
+                if not(Ga[(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(',\216\v%u!\221\n0T0','\146\196\23\51\160'),(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)('\167\138\25\132\246','q\226'))])then
+                    _c=Qb(19310)
+                    break
+                else
+                    _c=Qb(3180)
+                    break
+                end
+                _c=3.5629856260932933e-05*746817495
+            elseif _c==1245455814-1245445968 then
+                g='\253\0\225\4'
+                _c=-1002023908- -1002040162
+            elseif _c==8.3591465531219049e-05*-144189361 then
+                R='\209\bt'
+                _c=-632326788+632355248
+            elseif _c==1.8385624719761891e-05*910330775 then
+                g=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(g,Ca))
+                _c=1518874778+-1518846667
+            elseif _c==1394023338-1394014340 then
+                L='V\230\56\215f[\227\57\194GJ'
+                _c=-1402862915+1402874161
+            elseif _c==-2.9202913174520432e-05*-375955643 then
+                L=Vb
+                _c=Qb(14248)
+            elseif _c==-16975343860431/912603831 then
+                Ca=(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(Ca,ec)
+                _c=Qb(23537)
+            elseif _c==3445882801560/533748885 then
+                Ca=(g)
+                _c=8429166599409/1899744557
+            elseif _c==-1037379729- -1037384166 then
+                Vb=Ca
+                _c=16210028027291/-512440427
+            elseif _c==0.00025905765840278475*62742789 then
+                Ca='\149t'
+                _c=-0.00034686020431241095*-48252869
+            elseif _c==6.2451411000055348e-05*478307848 then
+                Vb='4\19\r'
+                _c=Qb(28262)
+            elseif _c==8257448800503/-307551447 then
+                L='\14\249\27\25\243\27\25'
+                _c=1104476600+-1104488137
+            elseif _c==-860622262- -860632759 then
+                L=(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(L,Vb)
+                _c=Qb(17939)
+            elseif _c==1263107008-1263121126 then
+                g='\0n\206\30w\200'
+                _c=Qb(17031)
+            elseif _c==5.6023729283799764e-06*-582788765 then
+                tb=u
+                _c=1.09358400682061e-06*1388096379
+            elseif _c==1733801072-1733798636 then
+                L=Ga[sa(L[1],1,L[2])]
+                _c=-75944968+75926270
+            elseif _c==-1.4907322344593046e-05*1859354709 then
+                ec=Ga[sa(ec[1],1,ec[2])]
+                _c=50664544361710/1559628886
+            elseif _c==-771330858- -771338738 then
+                g=Ga[sa(g[1],1,g[2])]
+                _c=-48841467+48847616
+            elseif _c==6.6339488968609137e-06*-253996530 then
+                Vb=Ca
+                _c=3374124655343/307325317
+            elseif _c==1.8578664088406869e-05*875951033 then
+                Ca='\193'
+                _c=Qb(-16213)
+            elseif _c==-1857041665- -1857034377 then
+                bb={[bb]=R}
+                _c=-1327083397+1327062387
+            elseif _c==1935296843+-1935271950 then
+                Ca=(g)
+                _c=Qb(10535)
+            elseif _c==1809614733+-1809617141 then
+                bb='\189'
+                _c=Qb(19019)
+            elseif _c==743541224-743529883 then
+                bb=ec
+                _c=Qb(36342)
+            elseif _c==728592168-728614116 then
+                g='7|)\18v9'
+                _c=Qb(-21474)
+            elseif _c==28976499573956/-1768909076 then
+                g=Ca
+                _c=-7.2854192165633921e-06*-886153536
+            elseif _c==-9356999750007/1777883289 then
+                Vb=L
+                _c=-125840946- -125835393
+            elseif _c==-622968831- -622968741 then
+                bb='p\161Kw\161Iv'
+                _c=Qb(3289)
+            elseif _c==-829432020384/-155674178 then
+                bb='\163m\5\164m\a\165'
+                _c=Qb(28707)
+            elseif _c==-1962595049- -1962601198 then
+                Ca=g
+                _c=13379586+-13391928
+            elseif _c==-11447000822488/1024248463 then
+                Ca=g
+                _c=-1623605316+1623583705
+            elseif _c==-3329604077526/-183126393 then
+                Ca=bb
+                _c=Qb(-12805)
+            elseif _c==892224257-892206430 then
+                bb='S&*'
+                _c=Qb(-25483)
+            elseif _c==-248338168- -248311295 then
+                ec='\231\225\251\229'
+                _c=Qb(-7388)
+            elseif _c==-1593180813+1593148304 then
+                Ca=bb
+                _c=-13955446704803/851928863
+            elseif _c==128871688-128871116 then
+                g=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(g,Ca))
+                _c=9703337082978/997157238
+            elseif _c==55099558-55092673 then
+                L=Vb
+                _c=2.8373893102783708e-05*-185487412
+            elseif _c==815052522-815079546 then
+                L={[L]=Ua}
+                _c=Qb(-16938)
+            elseif _c==26948257932876/-1242255932 then
+                if Vb then
+                    _c=Qb(-22373)
+                    break
+                end
+                _c=1756017479+-1756031597
+            elseif _c==-19836172407129/1457363339 then
+                L=(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(L,Vb)
+                _c=Qb(-8078)
+            elseif _c==-7.2498940832711925e-06*1524711930 then
+                ec='5J_+SY'
+                _c=Qb(32209)
+            elseif _c==1.1177903756423693e-05*355075521 then
+                ec='\133\132'
+                _c=Qb(28301)
+            elseif _c==-3.0896874805224141e-05*-1051400836 then
+                bb='\137\49\201\142\49\203\143'
+                _c=Qb(-11441)
             end
         end
-    until Oa==-2040933817+2040945702
+    until _c==5.8336493644206971e-05*-528982770
 end;
-aa((function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+Oa((function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)('\v\154\239I\175kQ\169n\145\233X\179o@\247n','N\226\138*\218\31\52\205')..Fa[(function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+    return H
+end)('\224mL\178\134\228xA\133fJ\163\154\224i\31\133','\165\21)\209\243\144\29%')..Ra[(function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)('\96SCW','.2')]..(function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+    return H
+end)('Eufq','\v\20')]..(function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)('\238\235\186\170','\206\138')..b[(function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+    return H
+end)('\180+\224j','\148J')..Ga[(function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)('\141\145','\226')][(function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+    return H
+end)('\149\137','\250')][(function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)('6\51&7','RR')]((function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+    return H
+end)('\146\225\130\229','\246\128')]((function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)('\16\191\176#\184\158E\167\21\195\213<\240\254Z\230f','5\230\157\6\213\179\96\195')))
-local function eb()
-    local Jb,M,_a,da,ac,z,Y,qa
-    ac,_a={[22029]=32474,[-17009]=22837,[15837]=-18680,[17197]=-8997,[-31012]=22098,[15660]=22837,[29583]=4311,[-14380]=-10968,[27589]=6927,[22935]=9670,[9223]=20283,[-19273]=31305,[-11536]=-22403,[8596]=5892,[-21820]=4255,[-2546]=-12744,[23101]=-22966,[-15575]=22837,[5122]=-18680,[-26446]=-19444,[-19194]=29105,[-1314]=5878,[2917]=-18680,[-27663]=-8151,[-19291]=-16752,[9045]=19254,[15970]=-23295,[7511]=9670,[-20247]=-1769,[20971]=21994,[-7741]=4861,[-16975]=-10968,[12163]=-23281,[-12563]=9670,[-6156]=11247,[-6738]=6763,[-27580]=22837,[19986]=-25061,[18498]=6763,[-18688]=-17234,[18333]=6763,[7540]=-8997,[-11994]=-15537,[15601]=-18680,[16768]=-5115,[16084]=-9941,[28606]=6927,[10963]=16297,[23827]=-18368,[3892]=22098,[12212]=5892,[30804]=-27736,[30218]=-18680,[-20197]=26572,[-20269]=29582,[-18057]=16297,[-16774]=-18680,[-12843]=-24754,[-26419]=-31320,[-26216]=31641,[-17498]=9577,[26876]=14183,[-11317]=18198,[-31340]=7401,[-995]=-32096,[-7636]=-26080,[17168]=32095,[-8524]=7401,[30992]=-31924,[15391]=-16752,[19029]=-22675,[21841]=-10727,[16320]=14569,[-13096]=275,[-4317]=22837,[447]=11247,[20744]=7808,[-29761]=-32273,[6289]=3959,[17002]=-18680,[-16751]=-26080,[27507]=18170,[-9362]=-13827,[-17282]=-5115,[5369]=-10978,[-31884]=-23281,[26644]=-32096,[20914]=-872,[-16657]=4728,[22510]=16403,[14136]=-9941,[28861]=21679,[24854]=-31223,[22393]=275,[-21166]=7621,[5083]=21424,[-29931]=21913,[3171]=-22403,[2199]=31305,[-16066]=22098,[-26809]=2819},function(ub)
-        return ac[ub+-22624]
+    return H
+end)('\147\29\216\189\3\221\162U\150a\189\162K\189\189\20\229','\182D\245\152n\240\135\49')))
+local function sb()
+    local E,gb,f,Ma,xa,F,C,S
+    f,E={[-10445]=18719,[-31581]=25910,[-13011]=-12538,[10284]=14175,[24604]=-10729,[-6096]=-3034,[-12004]=26262,[-14998]=11312,[-31489]=21888,[32608]=18719,[12543]=-29614,[-4084]=11209,[856]=22138,[26766]=29747,[-2679]=-29614,[-20086]=-13497,[9007]=18922,[15804]=-32581,[-18523]=-17113,[32343]=11209,[116]=-1459,[-4468]=-15140,[28103]=-29591,[-15362]=-8531,[-32424]=-3034,[30433]=-11568,[5496]=-13080,[-18175]=21888,[-12027]=-1862,[-27978]=24749,[-28141]=-32406,[-29655]=-10454,[25636]=-15380,[-22142]=11209,[-24416]=14972,[-28811]=-29591,[17869]=29747,[-20682]=30773,[5515]=11209,[31775]=24270,[19183]=-3401,[15542]=32140,[11920]=25910,[21070]=20113,[16439]=-10145,[-18594]=6438,[-9887]=29747,[24221]=29747,[31259]=15452,[-28261]=18719,[-6802]=24749,[-4725]=-22439,[-16562]=18248,[28816]=32140,[-27492]=30773,[12044]=15660,[28921]=-3401,[-1741]=-9314,[17919]=-7108,[-7754]=20767,[-994]=15452,[26787]=20869,[23481]=-15880,[23640]=-1459,[26806]=-10729,[-13371]=-17512,[-23380]=11942,[-11831]=-25531,[3316]=-18225,[-221]=10189,[17030]=-17512,[-3031]=10189,[-24621]=28764,[-11872]=-16764,[-18491]=13356,[-28790]=11209,[8609]=-9720,[6807]=22191,[-32526]=-11014,[-11572]=3477,[31837]=6438,[14855]=-2911,[21298]=16480},function(Zb)
+        return f[Zb+32141]
     end
-    Jb=_a(5342)
+    gb=E(-6505)
     repeat
         while true do
-            if Jb==-8116002838261/1021009289 then
-                Y=Y[l(z[1],1,z[2])]
-                Jb=_a(21629)
-            elseif Jb==723783271-723777379 then
-                da[(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+            if gb==-9.6990362876481588e-06*1077839044 then
+                Ma='\218\179\171\225'
+                gb=1743444113-1743425205
+            elseif gb==-1954430460- -1954415320 then
+                C='\215\195\254\207'
+                gb=E(-56762)
+            elseif gb==869881074-869858957 then
+                Ma='\171\147\169'
+                gb=E(-43972)
+            elseif gb==4722410288075/-1534744975 then
+                C=xa[sa(C[1],1,C[2])]
+                gb=E(-60952)
+            elseif gb==4376287261652/-1286764852 then
+                xa=C;
+                if not(not xa or not xa:FindFirstChild((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)('\138\155\163\151','\217\242')]=l(Y[1],1,Y[2]);
-                Jb=_a(-7307);
-            elseif Jb==593453810625/80185625 then
-                Tb=nil;
-                Jb=_a(27746)
-            elseif Jb==1528800647-1528789400 then
-                da[(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)('k\249\224\159\179x^\249\228\159\163q','?\139\129\241\192\b')]=Y;
-                Jb=_a(45017);
-            elseif Jb==21103737148605/666974405 then
-                M='\245\187\222\22'
-                Jb=_a(27707)
-            elseif Jb==9.975394914423825e-06*1421798347 then
-                Y=Y[l(z[1],1,z[2])]
-                Jb=_a(51485)
-            elseif Jb==1748805980-1748799321 then
-                Y=Y[l(z[1],1,z[2])]
-                Jb=_a(3351)
-            elseif Jb==-358913268- -358927901 then
-                Y=Y+z
-                Jb=_a(50213)
-            elseif Jb==1.9730771420725468e-05*975836149 then
-                Y=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)('o-F,','L}'),(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)(Y,z))
-                Jb=1106316124-1106293714
-            elseif Jb==-383767853+383772714 then
-                z='\203\26'
-                Jb=-2458766539450/-445025618
-            elseif Jb==-4822044- -4838447 then
-                M='EZ\212'
-                Jb=-9.3241767060095126e-06*-485190290
-            elseif Jb==9964600085284/-512476861 then
-                Y=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)('\24F','s'))))then
+                    gb=E(202)
+                    break
+                else
+                    gb=E(-7537)
+                    break
+                end
+                gb=E(-60931)
+            elseif gb==1148116005-1148094799 then
+                C=-2.6737781007340465e-10
+                gb=-1.1790278345156549e-05*1899191804
+            elseif gb==-1.8794362008207367e-05*-970929473 then
+                C=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)(Y,z))
-                Jb=_a(-7137)
-            elseif Jb==1783268140-1783279108 then
-                da[(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)(']\132-\145\26r\137*\182\16','\30\229C\210u')]=true;
-                Jb=_a(-8716);
-            elseif Jb==2986698410553/-366421103 then
-                z=1327362436
-                Jb=31059826809144/2122587768
-            elseif Jb==4.5801133111240837e-06*864389095 then
-                M='\227\211\26\145'
-                Jb=_a(804)
-            elseif Jb==319406439+-319384760 then
-                z='\21\54\181\54.\189&'
-                Jb=_a(45134)
-            elseif Jb==4351938944224/1638531229 then
-                z=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)(z,M))
-                Jb=-1.8711600046677416e-06*2043652061
-            elseif Jb==2065408913-2065386503 then
-                Y=b[l(Y[1],1,Y[2])]
-                Jb=-0.00017806481907603982*-61460765
-            elseif Jb==-1.0550255282003799e-05*-1922512722 then
-                Y=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)(Y,z))
-                Jb=-1.1276210335340304e-05*1169807906
-            elseif Jb==-23564190842742/1786383962 then
-                Y=qa[l(Y[1],1,Y[2])]
-                Jb=_a(30164)
-            elseif Jb==1327127960205/470779695 then
-                M='\155\130\221\30\167'
-                Jb=_a(11307)
-            elseif Jb==11211070999309/1170624517 then
-                Y=da[l(Y[1],1,Y[2])]
-                Jb=_a(38015)
-            elseif Jb==-1794550688+1794558496 then
-                z='_\201'
-                Jb=_a(31669)
-            elseif Jb==244134653+-244153333 then
-                Jb=_a(21310);
+                    return H
+                end)(C,F))
+                gb=E(-14222)
+            elseif gb==30227154434640/1930214204 then
+                C=C[sa(F[1],1,F[2])]
+                gb=E(-60282)
+            elseif gb==-1637584640+1637573626 then
+                if not Fb then
+                    gb=E(-36609)
+                    break
+                end
+                gb=E(-35172)
+            elseif gb==-495994279- -495978899 then
+                C='\25n\137Q;e\156F('
+                gb=E(-5354)
+            elseif gb==-9722790604491/1139701161 then
+                F='3\225'
+                gb=-1363895660+1363927665
+            elseif gb==-1087621117- -1087605417 then
+                C=Ra[sa(C[1],1,C[2])]
+                gb=E(-3220)
+            elseif gb==59838030420858/2011565214 then
+                gb=E(-17286);
                 break;
-            elseif Jb==521279913-521296665 then
-                Tb=Y;
-                Jb=_a(14988)
-            elseif Jb==45241165472534/-1969919249 then
-                Y=-1327362436
-                Jb=_a(-5039)
-            elseif Jb==961664026-961673967 then
-                qa=Y;
-                if not(not qa or not qa:FindFirstChild((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+            elseif gb==1.6903357934195918e-05*-1036007169 then
+                Fb=C;
+                gb=E(-32362)
+            elseif gb==-556576442+556581601 then
+                C=C[sa(F[1],1,F[2])]
+                gb=E(-34820)
+            elseif gb==1.048305913424051e-05*1473997218 then
+                Fb=nil;
+                gb=E(-7920)
+            elseif gb==4252880233499/211449323 then
+                C=C[sa(F[1],1,F[2])]
+                gb=E(-44168)
+            elseif gb==5920856574360/-740569928 then
+                Ma='\164}\15\182\180'
+                gb=E(-15702)
+            elseif gb==-1742920391- -1742894860 then
+                F=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)('<R\21S','\203t'),(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)('\152d',"\'"))))then
-                    Jb=_a(38284)
+                    return H
+                end)(F,Ma))
+                gb=-8.5096180828204606e-06*-1876817484
+            elseif gb==-461558898+461572649 then
+                F='\249\210'
+                gb=-589024545+588999839
+            elseif gb==-1991395681+1991366090 then
+                S=C;
+                if aa==-0*-1909290036 then
+                    gb=E(-50664)
                     break
                 else
-                    Jb=_a(25795)
+                    gb=E(-64667)
                     break
                 end
-                Jb=_a(18307)
-            elseif Jb==9.5261316399439223e-05*-336925850 then
-                da[(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                gb=-1540786823+1540816570
+            elseif gb==-651053028- -651036264 then
+                C=C*F
+                gb=E(-63630)
+            elseif gb==-11859062213736/-896783289 then
+                C=Ga[sa(C[1],1,C[2])]
+                gb=E(-31285)
+            elseif gb==1494540360-1494519491 then
+                F='Z\6\232#'
+                gb=4.9997623829270992e-05*247351755
+            elseif gb==2.1945540007564687e-05*-677313021 then
+                F='\128\184}\204\191\176h\197'
+                gb=-9.7932782753677495e-06*1981256884
+            elseif gb==897061853532/88042188 then
+                C='\244\219Q\214\209@\145'
+                gb=E(-16337)
+            elseif gb==-63254284039163/-2055512431 then
+                S[(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)('\179(\185\219\140 \172\210','\254I\205\190')]=Y;
-                Jb=_a(34787);
-            elseif Jb==-45647101053983/-1440562409 then
-                Y=Y[l(z[1],1,z[2])]
-                Jb=_a(9781)
-            elseif Jb==-5.3015644524313596e-06*-2064296322 then
-                z='\174\178n\244\145\186{\253'
-                Jb=_a(28913)
-            elseif Jb==-1.0254094387794354e-05*-1771975107 then
-                z=-1361355654
-                Jb=_a(53616)
-            elseif Jb==-936684644+936662241 then
+                    return H
+                end)("\'\216\254\132\216\b\213\249\163\210",'d\185\144\199\183')]=false;
+                gb=E(-42028)
+            elseif gb==1.894233326376834e-05*652876276 then
+                C=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(C,F))
+                gb=-1490115135+1490099435
+            elseif gb==-33125841504125/-1035020825 then
+                C=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(C,F))
+                gb=6379712491902/-2073354726
+            elseif gb==-1.3012246890727767e-05*-2018252514 then
+                C=C[sa(F[1],1,F[2])]
+                gb=-842802125+842770965
+            elseif gb==-1791362851+1791359817 then
+                S[(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(';\b\231MV\154\14\b\227MF\147','oz\134#%\234')]=C;
+                gb=E(-47139);
+            elseif gb==2636561655232/-210285664 then
+                C='\247v\199u'
+                gb=83105305-83125408
+            elseif gb==1760252879+-1760259987 then
+                C=Ga[sa(C[1],1,C[2])]
+                gb=2.9137123806076152e-05*1091871669
+            elseif gb==-5354063971200/-377711744 then
+                C=C*F
+                gb=E(-38237)
+            elseif gb==-9.4620087018787912e-05*236651653 then
+                F=-1870013072
+                gb=E(-44013)
+            elseif gb==-1344311272+1344343086 then
+                F='T_M'
+                gb=-828271267+828240851
+            elseif gb==9.5281779939399534e-05*232342427 then
+                F='\151\210\223\132\168\218\202\141'
+                gb=E(-61796)
+            elseif gb==900893061-900913164 then
+                F='\178\24'
+                gb=1938801502+-1938790694
+            elseif gb==44343342776340/1541626435 then
+                F='\132\170'
+                gb=E(-33882)
+            elseif gb==1995418664-1995428809 then
+                F=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(F,Ma))
+                gb=1956596102769/379258791
+            elseif gb==1.344344608600417e-05*803960527 then
+                C=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(C,F))
+                gb=5004617641671/-1181170083
+            elseif gb==23310895118810/899687191 then
+                S[(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)('w0\21\213H8\0\220',':Qa\176')]=C;
+                gb=E(-32025);
+            elseif gb==-39091093+39113284 then
+                F=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(F,Ma))
+                gb=E(-44145)
+            elseif gb==-685235610718/-1974742394 then
+                F=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(F,Ma))
+                gb=E(-20097)
+            elseif gb==-336620579- -336587998 then
+                F='\162\190\50'
+                gb=E(-48703)
+            elseif gb==23263400907179/1456602649 then
+                C=C[sa(F[1],1,F[2])]
+                gb=E(-20221)
+            elseif gb==1908474060-1908506466 then
+                F='\226\18}\213\209\226\20j\218\208'
+                gb=-6.1029107760810803e-06*1310030622
+            elseif gb==-11641579553008/-1074739619 then
+                F=280164257
+                gb=E(-21857)
+            elseif gb==-675694259- -675700697 then
+                S[(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)('oaFm','<\b')]=sa(C[1],1,C[2]);
+                gb=33440726927644/1576946474;
+            elseif gb==-356304218- -356279512 then
+                C=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(C,F))
+                gb=-12536041103760/-947976490
+            elseif gb==10826117+-10856533 then
+                Ma=':'
+                gb=E(-25334)
+            elseif gb==42560315867360/1324216424 then
+                S[(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(':\168Gx\27\172Gx','w\201\52\v')]=true;
+                gb=E(-45152);
+            elseif gb==-1.1828604870025914e-05*1640345604 then
+                Ma='\205\217\t\169'
+                gb=719797769826/2074345158
+            elseif gb==0.0001711639965930033*-99980138 then
+                if Fb then
+                    gb=E(-60402)
+                    break
+                end
+                gb=E(-5375)
+            elseif gb==1262646015-1262656744 then
                 return
-            elseif Jb==503173679-503144097 then
-                Y='\26\167*\164'
-                Jb=_a(43368)
-            elseif Jb==-1410018613- -1410022924 then
-                z='Eo-'
-                Jb=_a(2377)
-            elseif Jb==143935450+-143940565 then
-                Y='j\203\203\245H\192\222\226['
-                Jb=_a(44653)
-            elseif Jb==1055610772+-1055592896 then
-                z='\184\218\170s\135\210\191z'
-                Jb=_a(-3592)
-            elseif Jb==-1.6948350886291615e-06*-1591895293 then
-                M='Y'
-                Jb=-1912953263+1912955919
-            elseif Jb==-12549805758256/-585782569 then
-                z=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+            elseif gb==2334533264336/206376703 then
+                C='\188\188\140\191'
+                gb=-2.6814915049730962e-05*-512811619
+            elseif gb==1956252705-1956283865 then
+                C=ta(C(aa,aa,aa))
+                gb=E(-304)
+            elseif gb==-1160698233+1160720121 then
+                S[(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)(z,M))
-                Jb=_a(49500)
-            elseif Jb==656534907-656527980 then
-                da[(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)('\178\20\4\208V\158\135\20\0\208F\151','\230fe\190%\238')]=C;
+                gb=E(-16599);
+            elseif gb==-8.9123152351152886e-05*-208262382 then
+                C=0
+                gb=7.259879717934826e-06*1492035739
+            elseif gb==-531020106- -531010792 then
+                C=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)('\220\233\247\146z\30\233\233\243\146j\23','\136\155\150\252\tn')]=Y;
-                Jb=_a(39792);
-            elseif Jb==-234341342- -234345866 then
-                z=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)(C,F))
+                gb=E(-52227)
+            elseif gb==570029906+-570018697 then
+                C='{\132R\133'
+                gb=E(-47503)
+            elseif gb==-1418655755- -1418626141 then
+                S[(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)(z,M))
-                Jb=-152912985- -152919644
-            elseif Jb==9.9600818253103005e-06*-903305832 then
-                da=Y;
-                if not(V==(696110984+-696110984)*(5.9681796132334624*337556865))then
-                    Jb=_a(-3795)
-                    break
-                else
-                    Jb=_a(10630)
-                    break
-                end
-                Jb=_a(25541)
-            elseif Jb==-249547141+249565339 then
-                z=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)('\229\208\136/\218\216\157&','\168\177\252J')]=C;
+                gb=E(-59633);
+            elseif gb==1189600207446/-638883033 then
+                F='\251\255\200\216\231\192\200'
+                gb=-1307894049- -1307916166
+            elseif gb==7341766285264/-1732774672 then
+                C=Ga[sa(C[1],1,C[2])]
+                gb=-758945482- -758930618
+            elseif gb==-14473427289676/-765465797 then
+                F=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)(z,M))
-                Jb=-14154877104575/1780711675
-            elseif Jb==37566851300/136606732 then
-                da[(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)(F,Ma))
+                gb=E(-11071)
+            elseif gb==-16979006444301/1257983733 then
+                C=S[sa(C[1],1,C[2])]
+                gb=E(-15111)
+            elseif gb==-2608852816816/1788110224 then
+                S[(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)('\213\178\\\230\244\182\\\230','\152\211/\149')]=true;
-                Jb=_a(2355);
-            elseif Jb==-16630398404480/905400610 then
-                Y=Za(Y(V,V,V))
-                Jb=_a(34836)
-            elseif Jb==-986226832+986195512 then
-                if not Tb then
-                    Jb=_a(47478)
-                    break
-                end
-                Jb=_a(5873)
-            elseif Jb==3.4233503426618417e-06*1242934428 then
-                z=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)("\234\181 \183d\197\184\'\144n",'\169\212N\244\v')]=true;
+                gb=E(-882);
+            elseif gb==780357353+-780338634 then
+                S[(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)(z,M))
-                Jb=312673919-312642232
-            elseif Jb==0.00023771320769218064*-109712036 then
-                Y='\19\nN1\0_v'
-                Jb=_a(52207)
-            elseif Jb==-1.3041146891269543e-05*-741499201 then
-                da[(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)('@\201i\197','\19\160')]=Tb;
-                Jb=_a(45725);
-            elseif Jb==-1444739125- -1444706852 then
-                Y=Fa[l(Y[1],1,Y[2])]
-                Jb=_a(38708)
-            elseif Jb==2.4980110796399116e-05*1299994234 then
-                z=')\163\170\135'
-                Jb=_a(-3822)
-            elseif Jb==1508868263-1508862738 then
-                Y=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)(Y,z))
-                Jb=_a(5126)
-            elseif Jb==2068795453+-2068773540 then
-                Y=-1361355653.5
-                Jb=_a(50131)
-            elseif Jb==2.8180691243927618e-05*-310602743 then
-                z='[\210'
-                Jb=_a(31847)
-            elseif Jb==1433976413+-1434001167 then
-                z='\221\237\175}\194\221\235\184r\195'
-                Jb=_a(-4185)
-            elseif Jb==51634054536434/-1653718558 then
-                Y='\152s\177\127'
-                Jb=_a(14883)
-            elseif Jb==1155464594+-1155487889 then
-                Y=b[l(Y[1],1,Y[2])]
-                Jb=1004272256+-1004265352
-            elseif Jb==-3.3314217152312566e-06*1147858280 then
-                Y=Y[l(z[1],1,z[2])]
-                Jb=_a(46451)
-            elseif Jb==-664555431- -664523507 then
-                Y=Y-z
-                Jb=_a(23071)
-            elseif Jb==1.4596637798875422e-05*-1594956340 then
-                da[(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)('$\26\31\128I\v\23\24\167C','g{q\195&')]=false;
-                Jb=_a(52842)
-            elseif Jb==-1791181628- -1791213723 then
-                Y='\237\249\221\250'
-                Jb=_a(2427)
-            elseif Jb==-413322541- -413307004 then
-                if not(Tb)then
-                    Jb=_a(39626)
-                    break
-                else
-                    Jb=_a(10061)
-                    break
-                end
-                Jb=_a(38461)
-            elseif Jb==-1903878947+1903885851 then
-                z='7<.'
-                Jb=888462444-888459746
-            elseif Jb==1927600990+-1927574418 then
-                z='\168\151'
-                Jb=-1534406761- -1534430926
-            elseif Jb==2.169369450876734e-05*-392602560 then
-                Y=b[l(Y[1],1,Y[2])]
-                Jb=11525342154692/644738317
-            elseif Jb==2095964013+-2095965782 then
-                Y=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)(Y,z))
-                Jb=_a(38594)
-            elseif Jb==630863337+-630840500 then
-                Y='\19\183:\182'
-                Jb=-2137718741- -2137709988
-            elseif Jb==-349492859+349524164 then
-                da[(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)('_\193\140\129\96\201\153\136','\18\160\248\228')]=Y;
-                Jb=_a(5649);
-            elseif Jb==-41387689467225/-1712712165 then
-                Y=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)(Y,z))
-                Jb=-6895138036071/809573563
+                    return H
+                end)('?c\22o','l\n')]=Fb;
+                gb=-1067085545- -1067104106;
             end
         end
-    until Jb==3.0817198209693169e-06*1907376511
+    until gb==-696135372689/239139599
 end
-local function Na()
-    local Ra,_b,Lb,F,xa,ua,Lb,vb,Ba,mb,Ga,_b,ic,Va,P,a,Z
-    Ga,ua={[3804]=-23977,[-384]=-32679,[-22196]=24806,[13414]=28658,[-3698]=-20457,[-18333]=14441,[27523]=9280,[17150]=-17531,[5637]=-23977,[-24572]=13573,[-10667]=-23977,[30779]=19115,[17591]=9280,[2082]=7373,[14873]=-23745,[8861]=19175,[-1246]=13802,[-11451]=11403,[19856]=-3568,[21748]=29941,[-2331]=-31996,[24186]=-20644,[2497]=-27304,[943]=-32679,[-1532]=-20457,[15859]=-17293,[15204]=-23977,[-11301]=3086,[-2554]=-31996,[5742]=-17715,[-12381]=-15600,[7573]=-11748,[25657]=13060,[-27008]=-23977,[16122]=31297,[21045]=-5002,[31734]=-19904,[14482]=-21866,[-17003]=3745,[13239]=12020,[28863]=-7154,[16449]=-23977,[13201]=19115,[-19107]=14441,[11270]=-23977,[-15838]=-23977,[-3975]=18588,[31764]=-13683,[32417]=21379,[328]=-30229,[24471]=29941,[3297]=-23120,[-8962]=-3568,[-28360]=30251,[-10506]=4080,[-15009]=13573,[-21063]=31297,[-1088]=-21984,[8578]=-23977,[-21660]=-21866,[-8630]=-1520,[-17862]=-20234,[-22006]=9236,[-11977]=-21866,[16124]=18588,[-10941]=30251,[18403]=7316,[-18772]=8547,[10095]=-5002,[-5177]=13802,[20089]=-11071,[30721]=-30229,[12306]=18588,[31779]=-21984,[25296]=-10182,[-30693]=-6971,[24331]=-23977,[26129]=-23977},function(n)
-        return Ga[n+-12309]
+local function ic()
+    local bc,Ub,y,Cb,n,_b,Cb,db,xb,K,ob,mb,Ea,nb,fc,Sa,xb
+    n,Ea={[2232]=21404,[9942]=24580,[21117]=-18861,[-10036]=-6601,[-6675]=-32402,[11286]=-32402,[5668]=20650,[-7801]=692,[-24569]=132,[-15594]=132,[-17990]=-11086,[-18044]=-32402,[25881]=4594,[-1291]=-13140,[7804]=-8551,[11209]=-5003,[20670]=26506,[-25629]=4692,[24020]=-1871,[-28587]=10888,[-8953]=19631,[28124]=-27190,[-22335]=-24457,[-25484]=-32402,[-29022]=-32402,[17416]=-12840,[1427]=-23126,[-3228]=24580,[-1486]=26506,[25113]=10888,[-5108]=-1871,[20053]=28355,[10941]=22463,[-9362]=4594,[-27902]=-6607,[32199]=-3688,[10471]=-24349,[27633]=3921,[15423]=27815,[-10608]=-32402,[22389]=18106,[22252]=-1785,[28888]=-32402,[-11272]=-24349,[-12570]=18106,[-18186]=-28780,[-6057]=-32402,[-17067]=26506,[-16390]=321,[-21927]=29612,[8788]=-18565,[30003]=-24457,[855]=-8551,[6354]=998,[-1105]=-32402,[32112]=8056,[30376]=11407,[-30665]=-11086,[13056]=-32402,[3758]=26506,[-27250]=-20130,[-2183]=11223,[-3059]=-28780,[32165]=-23126,[-18226]=-32402,[-26027]=-14881,[29730]=-32402,[-308]=-6601,[14658]=28176,[25405]=-24110,[-4762]=30659,[18990]=4084,[-2615]=-819,[-24677]=11223,[29973]=10538,[-3426]=-28780,[-30187]=21207,[-26259]=8672,[-27898]=-12201},function(za)
+        return n[za-3683]
     end
-    ic=ua(-6798)
+    y=Ea(-20994)
     repeat
         while true do
-            if ic==-1320561211- -1320589868 then
-                vb=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+            if y==830941495+-830920845 then
+                fc=(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)(vb,F))
-                ic=219210725-219236605
-            elseif ic==1.2934705069399021e-05*717449679 then
-                a=l(vb[1],1,vb[2]);
-                if a then
-                    ic=ua(43088)
-                    break
-                end
-                ic=ua(28758)
-            elseif ic==-17778613- -17791673 then
-                xa=Va.FindFirstChild
-                ic=-1462603277+1462587234
-            elseif ic==565496182-565477007 then
-                Va=(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)(Va,xa)
-                ic=ua(-6463)
-            elseif ic==-905277988- -905245992 then
-                Va=Za(Q(mb))
-                ic=ua(10777)
-            elseif ic==2041841390+-2041865366 then
-                Va=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)(Va,xa))
-                ic=ua(30712)
-            elseif ic==391485156+-391496227 then
-                F=Za(vb(xa))
-                ic=-44375003355936/-1904179684
-            elseif ic==-1.5928253450417762e-05*-1964873305 then
-                mb,Ba,Ra=l(Va[1],1,Va[2]);
-                ic=ua(-3529)
-            elseif ic==-1250242612+1250257053 then
-                Va=b[(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)('\169\245\181\196\173\234\166\204\187','\222\154\199\175')]
-                ic=ua(37966)
-            elseif ic==-809352105- -809332201 then
-                vb=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)(vb,F))
-                ic=ua(-9697)
-            elseif ic==-1271788145+1271811449 then
-                Va=Za(Va(l(F[1],1,F[2])))
-                ic=ua(43030)
-            elseif ic==764725408+-764747274 then
+                    return H
+                end)(fc,nb)
+                y=-154960604+154952944
+            elseif y==34989462040156/1623339614 then
+                nb='8\199'
+                y=Ea(9351)
+            elseif y==1410256158-1410238052 then
                 return
-            elseif ic==628295272+-628298840 then
-                ic=ua(44073);
-                break;
-            elseif ic==8391884411526/981851458 then
-                Va=b[Va]
-                ic=12786563-12770024
-            elseif ic==1660460917-1660476960 then
-                vb='L\31\150}\4\144'
-                ic=ua(-4694)
-            elseif ic==-3576568024328/-1022753224 then
-                vb=xa(Va)
-                ic=ua(16113)
-            elseif ic==1962255752-1962231864 then
-                xa=Va.Destroy
-                ic=-1719373766760/-491671080
-            elseif ic==-59102816404053/-1973976033 then
-                Va=Z.__iter
-                ic=ua(-5553)
-            elseif ic==-319409371+319383491 then
-                vb=Za(xa(Va,l(vb[1],1,vb[2])))
-                ic=ua(39832)
-            elseif ic==-8.8792725928689037e-07*2130805176 then
-                Va=Va(l(xa[1],1,xa[2]))
-                ic=ua(3347)
-            elseif ic==-14052375740718/748501957 then
-                vb='\194M0\145<\142P\17\181\223\155\157\148\238\204\16\ve2\27'
-                ic=ua(25548)
-            elseif ic==8.5464504422651478e-07*-1778516134 then
-                xa='-\189'
-                ic=ua(21170)
-            elseif ic==-589413455- -589416541 then
-                Va=Za(ja(mb))
-                ic=ua(-8754)
-            elseif ic==0.00028289254857807785*-57155977 then
-                xa=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+            elseif y==-562707534+562676766 then
+                fc=Ga[fc]
+                y=-1.4565432777013061e-05*-1770149943
+            elseif y==1517250750-1517250429 then
+                fc=Ga[sa(fc[1],1,fc[2])]
+                y=543443886-543472589
+            elseif y==278511167+-278497677 then
+                _b=ta(Ub(nb))
+                y=-618965012+618957028
+            elseif y==2.3577382711008102e-05*1378270031 then
+                nb=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)(xa,vb))
-                ic=ua(19882)
-            elseif ic==-3668425255468/-397187663 then
-                vb=Za(xa(Va,l(vb[1],1,vb[2])))
-                ic=ua(44088)
-            elseif ic==-1.3062121148845258e-05*1342125050 then
-                Va=b[Va]
-                ic=-6328572197810/-402222715
-            elseif ic==250067954560/-10816088 then
-                Va='Z\220_\211'
-                ic=ua(3679)
-            elseif ic==-399251688+399270803 then
-                Va=a
-                ic=-1017967480- -1017991368
-            elseif ic==1772143074+-1772133215 then
-                Va=(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)(nb,Ub))
+                y=Ea(19106)
+            elseif y==-9.7663246799232645e-06*-1975052093 then
+                Ub=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)(Va,xa)
-                ic=ua(29459)
-            elseif ic==-236360798+236391049 then
-                Va=_b
-                ic=1638097655-1638121134
-            elseif ic==-1705543677+1705547422 then
-                F='\15p\227'
-                ic=ua(44043)
-            elseif ic==-10166602178172/865390039 then
-                Va=Va(l(xa[1],1,xa[2]))
-                ic=ua(26791)
-            elseif ic==-1221427702- -1221404223 then
-                xa=Va.FindFirstChild
-                ic=1391166683+-1391148883
-            elseif ic==-32757122889510/1348307178 then
-                vb='X\246\197}\15\25\195\129Z\23\\\228O\167\15\138a7'
-                ic=1073505338+-1073521507
-            elseif ic==47398206372364/1586391538 then
-                xa='\236\254'
-                ic=-1097527367- -1097537226
-            elseif ic==1434575343+-1434563323 then
-                xa=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)(xa,vb))
-                ic=1950343020+-1950344912
-            elseif ic==227426758+-227401845 then
-                vb=xa.GetChildren
-                ic=ua(32398)
-            elseif ic==2129822022-2129854701 then
-                mb,Ba,Ra=l(Va[1],1,Va[2]);
-                ic=ua(27513)
-            elseif ic==18498518511400/1039242613 then
-                vb='VV['
-                ic=1975708106-1975679794
-            elseif ic==-3.2931228478669564e-05*-859731061 then
-                F='\25'
-                ic=-22696687253546/-792011978
-            elseif ic==-1640369991+1640363020 then
-                Va='\156\140\133\144\152'
-                ic=-2110387689- -2110417567
-            elseif ic==-276214132+276192148 then
-                P=l(vb[1],1,vb[2]);
-                if not P then
-                    ic=ua(15606)
+                    return H
+                end)(Ub,_b))
+                y=Ea(18341)
+            elseif y==546055212+-546034005 then
+                fc=bc.__iter
+                y=1155793537+-1155773432
+            elseif y==-2.5009647327761488e-06*748111309 then
+                fc='\229\169\252\181\225'
+                y=-1181587132+1181571250
+            elseif y==4.2494073491393105e-06*-1553393087 then
+                K=sa(Ub[1],1,Ub[2]);
+                if not(K)then
+                    y=Ea(-21801)
+                    break
+                else
+                    y=Ea(-24219)
                     break
                 end
-                ic=ua(11063)
-            elseif ic==-1000246691+1000216462 then
-                mb,Ba,Ra=l(Va[1],1,Va[2]);
-                if xb(mb)~='function'then
-                    ic=ua(9978)
+                y=Ea(-14543)
+            elseif y==-8084330432856/-521031866 then
+                nb=fc.Destroy
+                y=-11832469859143/557898527
+            elseif y==-5.4913147050512474e-05*-513101170 then
+                Ub=ta(nb(fc,sa(Ub[1],1,Ub[2])))
+                y=Ea(-6353)
+            elseif y==9.6221966641746596e-06*2089439730 then
+                fc=ta(fc(db))
+                y=Ea(14154)
+            elseif y==2089825649-2089794990 then
+                fc=xb
+                y=Ea(1068)
+            elseif y==-1628347401+1628340794 then
+                fc=K
+                y=-1241759868+1241775384
+            elseif y==-1115496907+1115496088 then
+                nb=fc.FindFirstChild
+                y=0.00011288142491309106*-127664937
+            elseif y==-1463323772+1463291370 then
+                Cb,xb=db(ob,mb);
+                mb=Cb;
+                if mb==nil then
+                    y=Ea(-1425)
+                else
+                    y=Ea(-1079)
+                end
+            elseif y==-21856084718170/1177273618 then
+                Ub='\17!\146 :\148'
+                y=Ea(-5270)
+            elseif y==-1.2894981727795785e-05*-1522375170 then
+                _b='RN\231'
+                y=606869119+-606839032
+            elseif y==103432734+-103453467 then
+                Ub='\172\132\237\244\243\193\a\185\232\170*\237\23\223\212!\96\168'
+                y=52571012422608/1617768723
+            elseif y==-960969042+960941852 then
+                Ub=nb.GetChildren
+                y=15551733384980/1152834202
+            elseif y==1.6222125105041542e-05*-1256617112 then
+                nb="\239\235\152\134\135\178\'\223\135\198N\136e\255\186N\20\136\202\235\152\154\151\225n\215\200\253E\159|\172\164@\3\205\130"
+                y=1.5566515210823002e-05*-1331897327
+            elseif y==-16454630018940/1980576555 then
+                fc=fc(sa(nb[1],1,nb[2]))
+                y=Ea(29564)
+            elseif y==635684627+-635707753 then
+                Sa=sa(Ub[1],1,Ub[2]);
+                if not(not Sa)then
+                    y=Ea(-13384)
+                    break
+                else
+                    y=Ea(22673)
+                    break
+                end
+                y=Ea(7441)
+            elseif y==-400792607- -400820851 then
+                Ub='\234\161y\169\182\53\176S\131\158t\214\5\162\51\183;\15o\133'
+                y=Ea(10037)
+            elseif y==130335884+-130350295 then
+                Ub='!!,'
+                y=Ea(29088)
+            elseif y==23001279801966/-878146062 then
+                Ub=ta(nb(fc,sa(Ub[1],1,Ub[2])))
+                y=Ea(5110)
+            elseif y==277109989+-277128664 then
+                nb=fc.FindFirstChild
+                y=Ea(12471)
+            elseif y==1794845645+-1794821065 then
+                db,ob,mb=sa(fc[1],1,fc[2]);
+                y=Ea(32571)
+            elseif y==-516736028- -516766115 then
+                Ub=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(Ub,_b))
+                y=1958980819+-1959007012
+            elseif y==-2761193665760/345840890 then
+                fc=ta(fc(sa(_b[1],1,_b[2])))
+                y=Ea(-14307)
+            elseif y==-225720890526/-226173237 then
+                nb=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(nb,Ub))
+                y=-16138395079584/1942512648
+            elseif y==1.7624361491489662e-05*1462918246 then
+                nb='\177\232\55\239\249h\144\18\239\242T\153J\224\19\209Tc\v\224\152\210Y\192\216\21\243<\246\236\0\165%\198V\219^{\n\225\196'
+                y=-4937784527216/-174825964
+            elseif y==1.5147112250955033e-05*-1614631198 then
+                fc=ta(la(db))
+                y=Ea(455)
+            elseif y==-1890231507- -1890202804 then
+                nb=Sa
+                y=Ea(31807)
+            elseif y==-205827251- -205840910 then
+                nb=',\19'
+                y=Ea(-22344)
+            elseif y==7322356909678/-1463593226 then
+                fc=(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(fc,nb)
+                y=-1723092347- -1723061579
+            elseif y==449946840-449970950 then
+                _b='n'
+                y=4.6530155887914688e-05*414548364
+            elseif y==18460945213632/-978789312 then
+                fc=ta(a(db))
+                y=Ea(11487)
+            elseif y==3973712844005/142862227 then
+                fc=fc(sa(nb[1],1,nb[2]))
+                y=Ea(-8887)
+            elseif y==17923262181708/-736098492 then
+                db,ob,mb=sa(fc[1],1,fc[2]);
+                y=Ea(-6925)
+            elseif y==7418088145880/-968418818 then
+                fc=Ga[fc]
+                y=-1531879618- -1531859233
+            elseif y==23979785484036/-1509871898 then
+                nb='\149\219'
+                y=Ea(14892)
+            elseif y==3.2186729542681752e-05*-658936161 then
+                Ub=nb(fc)
+                y=Ea(-14361)
+            elseif y==3632903418708/790793082 then
+                y=Ea(23736);
+                break;
+            elseif y==-1.4913297263126242e-05*743363443 then
+                db,ob,mb=sa(fc[1],1,fc[2]);
+                if kb(db)~='function'then
+                    y=Ea(24800)
                     break
                 end;
-                ic=ua(17946);
-            elseif ic==970318305+-970302571 then
-                xa='\153\4~\215s\211pP\217\179\187\210\219\172\236vd\tV~\176>\16\248R\174\19~\192\173\239\238\180\138\169|n\17W\127\236'
-                ic=-26165527497900/1393710850
-            elseif ic==42411629-42404313 then
-                Va=b[l(Va[1],1,Va[2])]
-                ic=ua(1803)
-            elseif ic==-235244558- -235224101 then
-                Z=l(Va[1],1,Va[2]);
-                if Z~=nil and Z.__iter~=nil then
-                    ic=ua(36780)
+                y=Ea(33413);
+            elseif y==494415377-494411293 then
+                fc='O\166J\169'
+                y=3.1161480140408764e-05*691687298
+            elseif y==1217112523+-1217121074 then
+                bc=sa(fc[1],1,fc[2]);
+                if bc~=nil and bc.__iter~=nil then
+                    y=Ea(-26504)
                     break
-                elseif xb(mb)==(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                elseif kb(db)==(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)('\141\129\155\140\156','\249\224')then
-                    ic=ua(1008)
+                    return H
+                end)('V\b@\5G','\"i')then
+                    y=Ea(-18652)
                     break
                 end
-                ic=ua(20887)
-            elseif ic==1304821953+-1304845930 then
-                Lb,_b=mb(Ba,Ra);
-                Ra=Lb;
-                if Ra==nil then
-                    ic=ua(-18384)
-                else
-                    ic=ua(1368)
-                end
-            elseif ic==913608930+-913592391 then
-                xa='\27\153\176\15{j\227\231\53{8\129=\135a\229\21\23>\153\176\19k9\170\239z@3\150$\212\127\235\2Rv'
-                ic=173616152-173640447
-            elseif ic==-1.238792012582811e-05*1633365391 then
-                Va=Za(Va(mb))
-                ic=ua(13252)
-            elseif ic==5708517511920/1399146449 then
-                xa=P
-                ic=1813675117-1813650204
-            elseif ic==-16144759- -16131237 then
-                xa='\1\21'
-                ic=-18101438218224/754981574
-            elseif ic==2.3369806565493342e-05*590591110 then
-                Va='qthgr'
-                ic=7875687016540/-582435070
+                y=Ea(-2992)
+            elseif y==-31169249279969/2094566849 then
+                fc=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(fc,nb))
+                y=Ea(-12707)
+            elseif y==1462579368+-1462552862 then
+                fc='\\rEa_'
+                y=3.2066396630623901e-05*425959928
+            elseif y==530949999-530938776 then
+                fc=Ga[(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)('\212\249D\248\208\230W\240\198','\163\150\54\147')]
+                y=-8451835678575/452574869
             end
         end
-    until ic==250537664-250551347
+    until y==1188658385-1188630030
 end
-local function Ha()
-    local h,lb,w,gc,Ub,k,J,ta,Ta,X,lb,H,ec,pb,y,g,wa,wa
-    ta,g={[1812]=-13848,[-27845]=-15139,[-7779]=16280,[1787]=-15139,[15581]=2699,[-24486]=-28683,[24192]=-20965,[-10071]=-17646,[-6150]=-15139,[-15056]=-15139,[-25202]=-15139,[6355]=32166,[21608]=-20965,[-12299]=29839,[-22232]=-15139,[4713]=-25924,[13113]=27669,[29604]=11979,[16592]=24056,[-27989]=-15139,[7528]=-25924,[-22415]=-15139,[-13209]=20566,[26542]=3688,[24942]=-20300,[-21631]=-20965,[21667]=13896,[-19357]=18671,[7341]=-23422,[-19432]=13268,[-29970]=-9689,[17933]=12531,[11940]=11820,[18926]=-15139,[-27716]=8811,[32439]=-12495,[20790]=-29578,[-3280]=-13494,[-23028]=18787,[-13600]=-5755,[8602]=22534,[16573]=27655,[-9687]=-16290,[23643]=5705,[5298]=11400,[22410]=5689,[30358]=23433,[32668]=13268,[-32523]=-716,[-31204]=23785,[13460]=-15977,[8796]=-13494,[-14837]=17849,[28010]=-2197,[-12761]=984,[4492]=23433,[-9398]=13268,[12132]=32524,[542]=-28278,[-11873]=835,[-94]=-32528,[14473]=-15139,[-25965]=9635,[-31214]=27669,[-18590]=1728,[-22146]=-10629,[-3014]=9635,[-11281]=5632,[-25980]=-23519,[-23141]=-15139,[7457]=7453,[-30003]=-20300,[27216]=2699,[-31919]=-2737,[13051]=-25924,[-31133]=-2737,[24255]=-23519,[26052]=24056,[98]=24056,[22187]=-10629,[11752]=25326,[30004]=11820,[10260]=8811,[1254]=-25540,[-18632]=-15139,[15119]=12531,[23580]=-19191},function(ga)
-        return ta[ga+30598]
+local function U()
+    local ja,gc,w,Yb,Za,s,ja,ib,A,h,Ob,Gb,J,Ka,w,v,Y,Ia
+    Yb,Ob={[-9456]=12329,[16490]=6408,[1790]=25944,[18036]=-9721,[15100]=-16893,[5369]=-8137,[-18543]=11730,[10945]=-28956,[-635]=-8137,[17096]=32329,[-11275]=-8137,[-15465]=-11646,[31870]=-8137,[23652]=10710,[-21096]=15026,[11033]=-8137,[-5465]=11894,[-16633]=-8137,[-16115]=-29620,[-11003]=-8137,[-32206]=10462,[-27178]=-9307,[-29199]=19927,[-16380]=-29620,[-2594]=32223,[10752]=-15889,[7345]=10462,[-20630]=-20720,[-16097]=14173,[-31184]=-7930,[-24715]=-29826,[-6563]=-8137,[1491]=22803,[-3040]=-23964,[25784]=-12657,[-8827]=-6024,[-9137]=5492,[-17302]=-12657,[27881]=-8137,[12078]=15010,[-4171]=11310,[-11338]=-8137,[11625]=-9307,[31492]=-9191,[-10820]=32329,[-31715]=-9721,[-29057]=25608,[-26433]=-4909,[29962]=-14009,[13893]=29748,[-25744]=848,[-14175]=-8137,[-10586]=-8137,[6449]=19396,[-23154]=-6024,[-21010]=-17414,[5814]=-9191,[3334]=6899,[-3113]=27961,[-31922]=-28956,[24761]=-12657,[-2697]=26571,[-2863]=-9565,[25011]=-23964,[17938]=-4111,[7302]=-7272,[-14794]=15010,[16065]=-16816,[-3094]=-15889,[-25283]=7898,[-4290]=-32111,[1086]=11310,[3367]=-10026,[-30177]=-9307,[-11268]=11318,[16957]=10987,[-13923]=26108,[24950]=9244,[1607]=-19384,[-20782]=6408,[28360]=-11319,[4652]=11730,[-28770]=7584,[-3689]=-19384,[-25544]=-23964,[-24788]=-8137,[10060]=25092,[2867]=-9191},function(j)
+        return Yb[j+-16931]
     end
-    H=g(-17547)
+    Ia=Ob(22745)
     repeat
         while true do
-            if H==1645648713+-1645664690 then
-                y=b[l(y[1],1,y[2])]
-                H=g(-8188)
-            elseif H==-1065427896+1065458851 then
-                h=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+            if Ia==1340256744-1340266465 then
+                gc=ta(a(ib))
+                Ia=Ob(-6223)
+            elseif Ia==2087455323+-2087444613 then
+                Y='4\181\216\217\230(D\200.\175\218\204\216&_\216'
+                Ia=Ob(-12268)
+            elseif Ia==-7.0735002051571349e-05*-366777398 then
+                Y='\127\a/C'
+                Ia=Ob(-3699)
+            elseif Ia==1.2500608087693526e-05*1702797164 then
+                gc=Ga[sa(gc[1],1,gc[2])]
+                Ia=-28238982390780/1500477279
+            elseif Ia==632769677+-632781323 then
+                Y='\208\223\n '
+                Ia=Ob(14337)
+            elseif Ia==-492590530+492563620 then
+                gc=gc[sa(Gb[1],1,Gb[2])]
+                Ia=-1108916881+1108941859
+            elseif Ia==33400250810300/-1786109669 then
+                gc=gc[sa(Gb[1],1,Gb[2])]
+                Ia=Ob(29009)
+            elseif Ia==-675414277+675400268 then
+                gc=Ra[sa(gc[1],1,gc[2])]
+                Ia=Ob(-8813)
+            elseif Ia==4.5380269899098573e-06*1412067406 then
+                gc='\210\31\154~\240\20\143i\227'
+                Ia=Ob(-12126)
+            elseif Ia==-809120976+809125920 then
+                gc=gc-Gb
+                Ia=Ob(18422)
+            elseif Ia==-6.7135895092832563e-05*-378783957 then
+                gc=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)(h,J))
-                H=899773424240/62181992
-            elseif H==144764059-144773909 then
-                J='\141c'
-                H=-1.9439137605929931e-05*-1592406033
-            elseif H==971193840565/-89967007 then
-                h=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)(gc,Gb))
+                Ia=-992709873680/-47975540
+            elseif Ia==-8851938305472/-1167185958 then
+                Gb='\169\170NU\139\161[B\152'
+                Ia=-3.2577679615153146e-06*-929163782
+            elseif Ia==875593247760/-130880904 then
+                Gb='n\136'
+                Ia=1574518746-1574493316
+            elseif Ia==1.244445566313991e-05*-1664998499 then
+                Gb=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)(h,J))
-                H=-894282738048/78425216
-            elseif H==1.6146628332036352e-05*1992118685 then
-                h=h[l(J[1],1,J[2])]
-                H=-2.0575882581785889e-05*-1497043924
-            elseif H==2.0367929918294423e-05*-929451352 then
-                y=(y)[l(h[1],1,h[2])]
-                H=g(-594)
-            elseif H==1352489176+-1352480365 then
-                pb=X;
-                H=g(-36748)
-            elseif H==-8066361576735/645567153 then
-                y=y[l(h[1],1,h[2])]
-                H=g(-42471)
-            elseif H==-646370831- -646376536 then
-                h='f\20\218\212B\18\198\211'
-                H=6580727355840/-322331865
-            elseif H==1.3389512375282939e-05*-851636690 then
-                y=y[l(h[1],1,h[2])]
-                H=g(-6955)
-            elseif H==555059903+-555056124 then
-                y='\"\26\140\"\24\158'
-                H=g(-18846)
-            elseif H==776945402+-776947599 then
-                gc='C\218\180\129\170\30IU'
-                H=-1689887357+1689886169
-            elseif H==-2.2398892690638269e-05*602440495 then
-                y=Za(Q(ec))
-                H=g(-6343)
-            elseif H==-679404222+679427655 then
-                ec,Ta,k=l(y[1],1,y[2]);
-                H=g(-53013)
-            elseif H==-9089919529855/567587857 then
-                h='\1\135'
-                H=g(-25300)
-            elseif H==2.5887981940934245e-05*721222691 then
-                J='\128\230\193\140'
-                H=496677764+-496693422
-            elseif H==1537570199-1537575954 then
-                y=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)(Gb,Y))
+                Ia=Ob(45291)
+            elseif Ia==-1697199686+1697195575 then
+                gc=ta(gc(ib))
+                Ia=Ob(-1612)
+            elseif Ia==-2.8707808903928471e-05*-414312358 then
+                Y=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)(y,h))
-                H=-67341440164026/-2055976069
-            elseif H==1.4466823890478688e-05*2129216491 then
-                y=y-h
-                H=g(-60568)
-            elseif H==818310095018/143840762 then
-                h='\229\22\234\6'
-                H=-1727707973+1727698123
-            elseif H==2.9264232416914703e-05*-556652222 then
-                J=h.GetPlayers
-                H=g(-21996)
-            elseif H==-1.2401870137582451e-06*577332283 then
-                h=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)(Y,v))
+                Ia=6.3164919412871635e-06*985515387
+            elseif Ia==-265921187175/-42718263 then
+                Gb=Gb[sa(Y[1],1,Y[2])]
+                Ia=8.3853361698315926e-06*589600691
+            elseif Ia==2140497380-2140477984 then
+                gc=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)(h,J))
-                H=g(-41879)
-            elseif H==-54398750+54419841 then
-                y=Za(y(l(gc[1],1,gc[2])))
-                H=g(-15017)
-            elseif H==2.6269863133918017e-06*1998868427 then
-                h='\248\191d\236'
-                H=-1.7560099755136576e-05*-589689133
-            elseif H==-1718830493+1718804569 then
-                y='l\230u\239'
-                H=1584415640-1584431655
-            elseif H==13011100065172/592598837 then
-                y=Fa[l(y[1],1,y[2])]
-                H=-10007799680196/1149133044
-            elseif H==3.0775133254794104e-05*1056827268 then
-                y=Za(ja(ec))
-                H=g(-56563)
-            elseif H==-42276729889856/2070764591 then
-                J='6{\169\189'
-                H=19052604400104/677161089
-            elseif H==-16883136545242/1742505578 then
-                h='\205\135\166\226\233\146\180\232\229'
-                H=g(-49955)
-            elseif H==12918854979753/-1483391317 then
-                h='\b:\3g\151M-\212\18 \1r\169C6\196'
-                H=541177177+-541171765
-            elseif H==-1.2692699725064943e-05*-1094802548 then
-                J='\v\175\217\224\196q 1\17\181\219\245\250\127;!'
-                H=g(-2588)
-            elseif H==3807645670400/676073450 then
-                h=lb[l(h[1],1,h[2])]
-                H=g(-8931)
-            elseif H==1218457977+-1218473116 then
-                wa,lb=ec(Ta,k);
-                k=wa;
-                if k==nil then
-                    H=g(-4546)
-                else
-                    H=g(-55084)
-                end
-            elseif H==507126984-507126149 then
-                h='mbF\159OiS\136\\'
-                H=421133885-421165514
-            elseif H==-4584433126506/-1698567294 then
-                ec,Ta,k=l(y[1],1,y[2]);
-                if xb(ec)~='function'then
-                    H=g(-21802)
+                    return H
+                end)(gc,Gb))
+                Ia=-30531174306348/-1434331218
+            elseif Ia==-341700290- -341680906 then
+                ib,h,Za=sa(gc[1],1,gc[2]);
+                if kb(ib)~='function'then
+                    Ia=Ob(-14784)
                     break
                 end;
-                H=g(-53739);
-            elseif H==-2.6584837786247181e-05*-444614336 then
-                X=y;
-                if X<pb then
-                    H=g(-52229)
+                Ia=Ob(5928);
+            elseif Ia==1786074945-1786045804 then
+                Gb=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(Gb,Y))
+                Ia=-1.1381231577517691e-05*1643055927
+            elseif Ia==0.00024921106089633051*100324600 then
+                gc=ta(gc(sa(v[1],1,v[2])))
+                Ia=Ob(13242)
+            elseif Ia==2892562889970/255752687 then
+                J=Ka;
+                Ia=Ob(298)
+            elseif Ia==7.4543865420221211e-05*157357013 then
+                ib,h,Za=sa(gc[1],1,gc[2]);
+                Ia=Ob(-7857)
+            elseif Ia==1.0441145380151569e-05*-960239479 then
+                Y=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(Y,v))
+                Ia=Ob(834)
+            elseif Ia==1533388653+-1533404542 then
+                Ka=gc;
+                if Ka<J then
+                    Ia=Ob(41692)
                     break
                 end
-                H=g(-11672)
-            elseif H==1812429489+-1812418089 then
-                y=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                Ia=Ob(5593)
+            elseif Ia==534605628-534575206 then
+                v='\253\177P\189'
+                Ia=Ob(11466)
+            elseif Ia==-281918625- -281889005 then
+                gc=ta(la(ib))
+                Ia=Ob(-14991)
+            elseif Ia==916802472+-916799445 then
+                Y="\234\194/\'"
+                Ia=-874520871+874545602
+            elseif Ia==492505550-492507148 then
+                Gb='\159T\144D'
+                Ia=-1315642492+1315643540
+            elseif Ia==-396256731+396281823 then
+                Y=Gb.GetPlayers
+                Ia=Ob(32996)
+            elseif Ia==-4.8731205092524735e-05*-663414745 then
+                gc=s.__iter
+                Ia=Ob(34869)
+            elseif Ia==-1585012803+1585033495 then
+                gc=Ga[sa(gc[1],1,gc[2])]
+                Ia=8.7191371939050174e-07*-1832750150
+            elseif Ia==36267109098260/-1927051493 then
+                Gb=Ga[(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)(y,h))
-                H=g(-17138)
-            elseif H==6.2369055993823753e-06*1920663991 then
-                J=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)('\215(\221,','\176I')][(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)(J,gc))
-                H=g(-24243)
-            elseif H==8.0091351008924593e-05*-132710959 then
-                y='\187\215\5\158\153\220\16\137\138'
-                H=-3.1814706592594605e-06*-1650494555
-            elseif H==-8611340644896/-1591156808 then
-                J='@On\6\249\"D\176'
-                H=-17010826622805/1575806079
-            elseif H==1318773770+-1318768420 then
-                h=h[l(J[1],1,J[2])]
-                H=g(-30692)
-            elseif H==-5.0261151649203415e-06*-1916987511 then
-                ec,Ta,k=l(y[1],1,y[2]);
-                H=g(-49230)
-            elseif H==2.3447501514958107e-05*1199957274 then
-                h=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)('\189o3\148f \158','\237\3R')]
+                Ia=Ob(26991)
+            elseif Ia==-0.00020472525360112944*-125084715 then
+                Gb='\145w\251\f'
+                Ia=-9970582070124/-504481991
+            elseif Ia==-1806427278848/-195416192 then
+                gc='\201\54\237\201\52\255'
+                Ia=Ob(7794)
+            elseif Ia==723252477+-723258501 then
+                s=sa(gc[1],1,gc[2]);
+                if s~=nil and s.__iter~=nil then
+                    Ia=Ob(34027)
+                    break
+                elseif kb(ib)==(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)(h,J))
-                H=g(1841)
-            elseif H==-1642476572+1642494421 then
-                y=Za(y(ec))
-                H=g(-26106)
-            elseif H==-756979558- -756947929 then
-                J=".\n\'\237"
-                H=g(-63121)
-            elseif H==5.7043835560471755e-06*1815270642 then
-                y=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)('{\26m\23j','\15{')then
+                    Ia=Ob(551)
+                    break
+                end
+                Ia=Ob(22300)
+            elseif Ia==-4469680691716/549303268 then
+                ja,w=ib(h,Za);
+                Za=ja;
+                if Za==nil then
+                    Ia=Ob(-8613)
+                else
+                    Ia=406843370-406815137
+                end
+            elseif Ia==1836968124-1836943393 then
+                Gb=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)(y,h))
-                H=-8.8635474789710959e-05*-247711202
-            elseif H==-4.9150650608239946e-05*583573150 then
-                if not(lb~=Fa and lb[(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)(Gb,Y))
+                Ia=Ob(32031)
+            elseif Ia==-1553835214- -1553867437 then
+                Gb=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)(Gb,Y))
+                Ia=-25262123709537/1369443471
+            elseif Ia==-166372489- -166392253 then
+                gc=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)('7\149?\176\21\158*\167\6','\146\166\199['),(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)(gc,Gb))
+                Ia=Ob(46893)
+            elseif Ia==-36968444973306/-1309405482 then
+                if not(w~=Ra and w[(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)('\158\240\225\50','x\171'))]and lb[(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)('\238\245\162\242\204\254\183\229\223','\217%\202\6'),(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)('\175\30\145/\141\21\132\56\158','2\2\171|'),(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)('\198D\187z','\178\252'))]and w[(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)('\210\203W\158','\f\191'))]:FindFirstChild((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)('\160:L\196\130\49Y\211\145','v\132\175d'),(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)('\146\231*gRG\173S\136\253(rlI\182C','\rE\219\236\206{\23q'),(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)('\255\255\232\251','j)'))]:FindFirstChild((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)('\145\199f\155\180C)7','F\16\250q')))and lb[(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)('\205;\175}\15rz\196\215!\173h1|a\212','\131-hr\133\235\56\52'),(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)('\135\231\152\152\165\236\141\143\182',']\226XZ'),(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)('R}\223h\176\232^\146','T\30u\6')))and w[(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)('\230\172\222q','\127\193'))]:FindFirstChild((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)('Uz%\197wq0\210d','\29F\168\19'),(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)('\170\179\160&\140\169\164#','N6\52V'),(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)('\148\22s\230','\159B'))]:FindFirstChild((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)('D\28\17\253','\232\236')))and lb[(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)('B\150\22bd\140\18g','o\137\184\143'),(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)('\3\139\171\55!\128\190 2','SI\247\167'),(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)('R\241\244\23','7\155')))and w[(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)('\143K\161\3','\156\225'))][(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)('\186\254Xe\152\245Mr\139','\bSFG'),(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)('\192\28\231\182\230\6\227\179','V\22\148\186'),(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)('h\27\230\142','\153\222'))][(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)('\230\253&\239','8\130'))][(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)('\3\234%k%\240!n','\1\178\173\49'),(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)('\137CK\173RB','\186\96y'),(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)('\139\252$\234','\193\209'))][(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)('\197\248\237','\190'))]>(-1058328768- -1058328768)/(-1.1242737842020504e+18/575307862))then
-                    H=g(-45654)
+                    return H
+                end)((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)('oa)Kp ','\182\202v'),(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)('\"}\141','\179'))]>(-0/-386860320)*(1.6576411907263273e+18/1695301023))then
+                    Ia=Ob(5656)
                     break
                 else
-                    H=g(-52744)
+                    Ia=Ob(-3851)
                     break
                 end
-                H=g(-58443)
-            elseif H==-1135845354+1135842617 then
-                y=Ub.__iter
-                H=g(-45435)
-            elseif H==-2076210717- -2076212445 then
-                h=b[(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                Ia=Ob(6345)
+            elseif Ia==-1.6404315683137966e-05*690001352 then
+                gc=gc[sa(Gb[1],1,Gb[2])]
+                Ia=Ob(-11839)
+            elseif Ia==2021310040-2021304548 then
+                Gb='\160F\140'
+                Ia=Ob(23380)
+            elseif Ia==-1425254014+1425276817 then
+                Gb='\157\190mN\185\171\127D\181'
+                Ia=Ob(1466)
+            elseif Ia==699221348-699220300 then
+                Y='\247!'
+                Ia=-13213954190913/-453448893
+            elseif Ia==1.6154841556399543e-05*1233500182 then
+                v='|\192\181\184\136G-\172'
+                Ia=Ob(20298)
+            elseif Ia==4674207539001/-253385783 then
+                gc=(gc)[sa(Gb[1],1,Gb[2])]
+                Ia=Ob(27683)
+            elseif Ia==-2139844748- -2139835557 then
+                gc='\3\233\26\224'
+                Ia=-1206651163- -1206644473
+            elseif Ia==540745911+-540739012 then
+                Y='\173\222#\212\137\216?\211'
+                Ia=61211134034568/2012068044
+            elseif Ia==17636783-17635935 then
+                Gb='\222B=]@\240\144\193\196X?H~\254\139\209'
+                Ia=Ob(-8352)
+            elseif Ia==828848675+-828834502 then
+                Gb=Gb[sa(Y[1],1,Y[2])]
+                Ia=Ob(20265)
+            elseif Ia==2006957024+-2006969681 then
+                A=w;
+                Ia=Ob(18017);
+            elseif Ia==-1922317439+1922309509 then
+                Gb=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)('\170\245\160\241','\205\148')][(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)('\186;\188\147\50\175\153','\234W\221')]
-                H=g(-40285)
-            elseif H==687795897-687781427 then
-                y=y[l(h[1],1,h[2])]
-                H=g(-15479)
-            elseif H==770316682+-770294148 then
-                gc=Za(J(h))
-                H=1.6526938769145442e-05*1276158900
-            elseif H==908835619-908859138 then
-                Ub=l(y[1],1,y[2]);
-                if Ub~=nil and Ub.__iter~=nil then
-                    H=g(-61731)
-                    break
-                elseif xb(ec)==(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)("1Z\'W ",'E;')then
-                    H=g(-18466)
-                    break
-                end
-                H=g(-16125)
-            elseif H==23593549621032/-1506804804 then
-                h=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)(h,J))
-                H=285373299+-285392230
-            elseif H==654652478-654685006 then
-                J='l/\148\157H)\136\154'
-                H=g(-38377)
-            elseif H==3.011744268591554e-05*840908050 then
-                h='Kj\237'
-                H=g(-44198)
-            elseif H==0.00090434934226284788*13856371 then
-                w,pb=nil,y;
-                H=-7333391616751/-1940564069;
-            elseif H==-33824941550304/-1406091684 then
-                return w
-            elseif H==-1.1236205631684438e-06*1057296421 then
-                J=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)(J,gc))
-                H=7.4457258186008064e-06*718533039
-            elseif H==-3.3527296164614052e-05*625311385 then
-                w=lb;
-                H=g(-20338);
-            elseif H==1773389586-1773373306 then
-                gc='<@\231\244'
-                H=g(-994)
-            elseif H==-612880430+612913184 then
-                y=b[l(y[1],1,y[2])]
-                H=g(-49188)
+                    return H
+                end)(Gb,Y))
+                Ia=37113027251040/-1379153744
+            elseif Ia==277861741+-277846731 then
+                A,J=nil,gc;
+                Ia=Ob(41881);
+            elseif Ia==-13859040377748/578327507 then
+                return A
+            elseif Ia==663266905-663283721 then
+                v=ta(Y(Gb))
+                Ia=-1692642430- -1692667432
+            elseif Ia==-558285300+558268407 then
+                Gb=w[sa(Gb[1],1,Gb[2])]
+                Ia=Ob(40583)
+            elseif Ia==1022169586-1022144608 then
+                Gb='/h\\*\vn@-'
+                Ia=Ob(18721)
+            elseif Ia==-2048527284- -2048498328 then
+                ib,h,Za=sa(gc[1],1,gc[2]);
+                Ia=Ob(27964)
+            elseif Ia==-15158785418898/-1919319501 then
+                Y='\150\55P<.\159\249\165'
+                Ia=Ob(-14253)
             end
         end
-    until H==-1141282257- -1141261855
+    until Ia==1544926289-1544927295
 end;
-sb[(function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+jb[(function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)('\2\190\177\185K\162\3\175\186\173^\181\52','P\219\223\221.\208')]:Connect(function()
-    local Ya,Ab,bb,K,Rb,Ja,Wa,D,bc,rb,na,Da,Ca,oa
-    rb,K={[15669]=4596,[25367]=-28207,[282]=-13491,[-9696]=3360,[-9526]=-7192,[-10968]=3220,[-2971]=8947,[-26552]=15317,[-12320]=115,[31085]=-24207,[5314]=8351,[-28443]=4596,[8645]=24497,[18152]=6905,[-14246]=-7044,[-8037]=32140,[10756]=22594,[-15628]=8967,[19423]=8351,[-19018]=-24198,[-5346]=-25390,[6830]=-13990,[-23509]=-14013,[-29865]=22791,[31880]=1063,[-20392]=26698,[-25245]=-7044,[-12644]=-2249,[18167]=30188,[29699]=22094,[-3011]=-2249,[15713]=6170,[7589]=-30472,[-14850]=5061,[-10514]=-17569,[2754]=-557,[-21281]=-25390,[22701]=8308,[-753]=-28416,[-30918]=-16889,[-27695]=22791,[-31268]=9167,[-24546]=7357,[-6734]=26698,[-11087]=3220,[-27227]=6170,[4753]=-24542,[-24473]=-5313,[27026]=8235,[-31981]=21805,[-25589]=-17447,[25402]=-25390,[-13219]=19484,[920]=12480,[25220]=-24542,[-6485]=-13990,[-17232]=6170,[-2586]=5865,[32585]=-545,[27142]=-9520,[23534]=-25390,[-19198]=-14013,[6857]=-28416,[-7009]=10640,[-8730]=-30472,[30415]=-545,[-81]=-25390,[25992]=-30496,[-9895]=25757,[-7479]=13041,[-22499]=26698,[3558]=-24207,[31814]=32428,[22708]=29572,[7568]=-21004,[10870]=-25390,[14445]=-32514,[29059]=25757},function(Db)
-        return rb[Db+23576]
+    return H
+end)('tiNX\130WuxEL\151@B','&\f <\231%')]:Connect(function()
+    local wa,ac,q,Sb,ab,Aa,hb,da,t,zb,ra,dc,vb,k
+    dc,zb={[-9320]=28362,[-27778]=28190,[-14262]=-32749,[-24395]=1288,[7434]=29075,[24758]=4468,[-17346]=-12075,[17439]=8205,[-20484]=-13587,[16712]=27267,[-12775]=-29549,[-18712]=-32457,[26839]=25103,[9513]=-21439,[-25268]=-456,[5920]=16862,[12570]=30418,[-32667]=3087,[5046]=18894,[-29327]=602,[31291]=-7467,[-23527]=30418,[-21795]=21799,[19539]=-21439,[-1390]=25103,[14056]=29023,[-18121]=-21439,[27356]=-15507,[-27333]=1953,[-19742]=-18731,[-6243]=-25408,[-14181]=27861,[32363]=27323,[-470]=-21439,[28351]=16963,[-22297]=-16778,[13553]=4534,[-21992]=27323,[-19628]=20409,[11578]=27214,[-6394]=-21439,[31831]=-12969,[-16223]=-8301,[-4594]=11547,[-23762]=28362,[9409]=24386,[27448]=-18731,[-3112]=27214,[26607]=5161,[-17899]=25103,[-10334]=10086,[-29234]=23990,[-1452]=17576,[15503]=-7467,[17113]=13527,[13386]=8205,[3548]=-25408,[28284]=21528,[16300]=13527,[-11848]=8252,[26841]=25283,[-10780]=-21439,[-9606]=-21439,[-2593]=4534,[1675]=4534,[19959]=-20623,[-5469]=20409,[27860]=-30976,[-32356]=28190,[-8918]=-13587,[20799]=-23915,[10774]=-14130,[-32422]=-30471,[21525]=4255,[-7314]=-29549},function(Xb)
+        return dc[Xb+9917]
     end
-    bc=K(-30061)
+    ab=zb(-31909)
     repeat
         while true do
-            if bc==7.0504493579410871e-06*1974484078 then
-                Ya='n\157D1J\155X6'
-                bc=K(-23294)
-            elseif bc==-1368348436- -1368361232 then
-                Ja='\247kKI\17\190\132\170'
-                bc=-5.4742816644921217e-06*-2127950426
-            elseif bc==657604255-657595904 then
-                Da=-5.7900353270841537e-11
-                bc=K(-9131)
-            elseif bc==-3329820194334/-129278262 then
-                Rb=Ya;
-                bc=-164465497- -164479418;
-            elseif bc==4663091118635/-165316805 then
-                Da='&\fX'
-                bc=K(-54494)
-            elseif bc==-1057726785+1057733690 then
-                Ya=Rb-Ya
-                bc=K(8304)
-            elseif bc==-0.00016745377273762511*-116354500 then
-                Ya=na[l(Ya[1],1,Ya[2])]
-                bc=K(-34090)
-            elseif bc==-22464666274752/1203120516 then
-                Da='\157\199\239!'
-                bc=K(-31613)
-            elseif bc==-1549110022+1549116192 then
-                if U then
-                    bc=K(-42774)
-                    break
-                end
-                bc=K(-42)
-            elseif bc==907236708898/-403395602 then
-                Ya='\222\175\142S\252\164\155D\239'
-                bc=-21689052344736/1161581638
-            elseif bc==3.2039203604527519e-06*1434492585 then
-                na[(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+            if ab==21553766038908/1866611764 then
+                hb=q-hb
+                ab=8214747001208/-941194661
+            elseif ab==-6.4143152582556877e-06*-804606539 then
+                wa='\130\185/F^\6_\232'
+                ab=zb(-42584)
+            elseif ab==-1675722217302/-542831946 then
+                Sb=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)('\155e\217\185N\206','\216#\171')]=Ya;
-                bc=K(-7863)
-            elseif bc==-861538769+861512774 then
-                Ya=Ya[l(Da[1],1,Da[2])]
-                bc=K(5483)
-            elseif bc==-385628953+385632313 then
-                Ya=(Ya)[Da]
-                bc=K(-18262)
-            elseif bc==-1073704874- -1073714925 then
-                Ya=Ya[l(Da[1],1,Da[2])]
-                bc=1984082364406/1741951154
-            elseif bc==12092250331245/962375673 then
-                Ya=(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)(Sb,wa))
+                ab=876865905920/45976610
+            elseif ab==2.2345722216066736e-05*-632335794 then
+                hb=da[sa(hb[1],1,hb[2])]
+                ab=2072604163+-2072622106
+            elseif ab==-1.6878283280543263e-05*-1802197504 then
+                t=sa(hb[1],1,hb[2]);
+                if not(t and t[(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)(Ya,Da)
-                bc=-2.9723830434732708e-05*484358839
-            elseif bc==14894832629448/1611297342 then
-                Ya=Ab[l(Ya[1],1,Ya[2])]
-                bc=8.7555939051921466e-05*-228322604
-            elseif bc==6.7400762675923255e-05*-359016709 then
-                Da=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)(Da,Ja))
-                bc=-46265373743415/1779779717
-            elseif bc==1470361349+-1470378466 then
-                Da=Da*(Ja)
-                bc=K(-55557)
-            elseif bc==449634956-449652233 then
-                Ya=Ya+Da
-                bc=K(7509)
-            elseif bc==-1.6739964343902692e-05*1121686977 then
-                Da='\246\141\218\212\166\205'
-                bc=-767729639- -767722309
-            elseif bc==-8.0735129718795114e-07*-1410786115 then
-                Da=';2SM\31\52OJ'
-                bc=2.7492576137793598e-05*-1136561370
-            elseif bc==1085099454-1085067314 then
-                Ya=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)('\205\255z\253\239\244o\234\252','k\202\157B'),(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)(Ya,Da))
-                bc=210565132-210555888
-            elseif bc==-724180130+724189297 then
-                Ya=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)(':>Y\174','\223c'))]and t[(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)(Ya,Da))
-                bc=K(-38426)
-            elseif bc==1807231596+-1807202024 then
-                Da=Da*Ja
-                bc=K(6839)
-            elseif bc==1498750687-1498727896 then
-                Ab=l(Ya[1],1,Ya[2]);
-                if not(Ab and Ab[(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)('\187\16\24\219\153\27\r\204\138','K\229\226\180'),(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)('\158\31I\r\188\20\\\26\175','\\\b\165\179'),(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)('\2Y*\217','\177\196'))]:FindFirstChild((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)('\n\253\6N','\139\130'))]and Ab[(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)('\144N<\170\173\0/\23\138T>\191\147\14\52\a','\137\232\154\209M^\241\221'),(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)('\163Q\135\207\129Z\146\216\146','\145\194\15\219'),(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)('# \187\189','R\219'))]:FindFirstChild((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)('\192j\142\a\16h\215X\218p\140\18.f\204H','W\206\243\230\57\165MB'),(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)('\220KonD8\140\144','\3\154\127\238'))))then
-                    bc=K(-44857)
+                    return H
+                end)('\151\161}\132HC\1\48','\198r\182\158'))))then
+                    ab=zb(-28038)
                     break
                 else
-                    bc=K(-36220)
+                    ab=zb(-35185)
                     break
                 end
-                bc=K(-12706)
-            elseif bc==1403545507+-1403573923 then
-                Da='\191\30&(\127\209\237\206\165\4$=A\223\246\222'
-                bc=-15532397933136/-1213847916
-            elseif bc==1275242742-1275256233 then
-                Da='>\242\55X'
-                bc=6.1843759514753457e-06*2031732886
-            elseif bc==1537596594+-1537574500 then
-                Ja="G(\141\184\149\'\156\200"
-                bc=-15237008321040/932954220
-            elseif bc==-50849102007970/2002721623 then
-                bc=K(-31055);
-                break;
-            elseif bc==1172483299479/-2104996947 then
-                bb=-683105493
-                bc=-146308801- -146294466
-            elseif bc==-769394923- -769367193 then
-                Da=(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                ab=zb(9622)
+            elseif ab==-1960512132+1960531216 then
+                hb=(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)(Da,Ja)
-                bc=K(-33272)
-            elseif bc==-18370930471187/-986994599 then
-                Ya=na[l(Ya[1],1,Ya[2])]
-                bc=33167700404685/-1766400405
-            elseif bc==143279964-143294361 then
-                Ya=na[Ya]
-                bc=K(-5424)
-            elseif bc==-914459069+914441500 then
-                Da=Ca*Wa
-                bc=257295705+-257312982
-            elseif bc==9052133718474/-1703770698 then
-                Da='\5[\128'
-                bc=K(-12820)
-            elseif bc==-1016572846- -1016572301 then
-                Ca,Wa=Ya,Da;
-                bc=-509887694622/-779644793;
-            elseif bc==-20194914217920/-1618182229 then
-                Ya='F\29\242d6\229'
-                bc=K(-48049)
-            elseif bc==-2134169199646/-2007685042 then
-                Da="e=Y\'"
-                bc=1357472741+-1357454173
-            elseif bc==-952052646- -952059361 then
-                Da=Da[l(Ja[1],1,Ja[2])]
-                bc=-1430710721+1430690542
-            elseif bc==8.96728919191971e-06*1708097026 then
-                Ya=D[Ya]
-                bc=K(-16719)
-            elseif bc==-49068664010977/1813797509 then
-                Da=D[l(Da[1],1,Da[2])]
-                bc=K(1644)
-            elseif bc==-170108294+170119828 then
-                Da=na[l(Da[1],1,Da[2])]
-                bc=-24312109887/36669849
-            elseif bc==-366001052+366000389 then
-                Ja='b8\154{\195K4\129\127\231'
-                bc=K(8238)
-            elseif bc==-1963161341- -1963147351 then
-                Ya='4\165\148\223\22\174\129\200\5'
-                bc=K(-48122)
-            elseif bc==1480332015+-1480352194 then
-                Ja=-1.46390273573748e-11
-                bc=K(-20822)
-            elseif bc==371243458+-371240238 then
-                D=Ya;
-                if not D or not D:FindFirstChild((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)(hb,Sb)
+                ab=1.602528619305661e-06*1980619854
+            elseif ab==-615904180+615898974 then
+                hb='*\202\171\b\225\188'
+                ab=zb(-27263)
+            elseif ab==-1207619700+1207638229 then
+                Sb='\161\199\249L'
+                ab=zb(17439)
+            elseif ab==-886566711- -886540015 then
+                Sb='q\136\252\161U\176\176\216k\146\254\180k\190\171\200'
+                ab=-33994298670838/1445458741
+            elseif ab==9805382285500/956622662 then
+                wa='\22C'
+                ab=-1.1195587041005996e-05*2090109247
+            elseif ab==-9.6871596391788027e-06*1852245722 then
+                Sb=vb*ra
+                ab=zb(-31712)
+            elseif ab==-2008048263- -2008074191 then
+                Sb=Sb[sa(wa[1],1,wa[2])]
+                ab=zb(4139)
+            elseif ab==-7.6566285292855947e-05*385927042 then
+                ac,da=hb,Sb;
+                if not(wb and ac[(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)('\247\6.\208\209\28*\213','\191sC\177'))or not D:FindFirstChild((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)('\26\23\48<\193Y\212\246\0\r2)\255W\207\230','Rb]]\175\54\189\146'))then
-                    bc=K(-5409)
-                    break
-                end
-                bc=K(-37822)
-            elseif bc==-1270939887+1270915345 then
-                oa,na=Ya,Da;
-                if not(s and oa[(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)('\152\205\151N4\241\167\199\130_\25\247\187','\237Fvg\164\186'),(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)('#\144\221W\160h','\27tJ'))][(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)('\f\161N \31\216\51\171[1\50\222/','Y\161s{\242\213'),(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)('x\210\152^\20\183','\96\189\211'))][(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)('Y\f\220\213}\25\206\223q','\140\\\216o'),(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)('\217\191\n>\253\170\24\52\241','l\227\157\235'),(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)('\186e\178\227','BX'))]>(-0/42657544)*(-0.034255239527172111*576371331))then
-                    bc=K(-50803)
+                    return H
+                end)('\174\tU\236','6\56'))]>(-588359313- -588359313)*(-1.0463998908527973e+18/-1886326477))then
+                    ab=zb(3636)
                     break
                 else
-                    bc=K(-22656)
+                    ab=zb(-29545)
                     break
                 end
-                bc=-11467705606750/-1858623275
-            elseif bc==-1.7051930043697278e-05*1419604698 then
-                na[(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                ab=332620081-332615547
+            elseif ab==867044057+-867052785 then
+                Sb='C-\127\55'
+                ab=-20820849507750/-2031302391
+            elseif ab==1203132555+-1203110756 then
+                hb=hb+Sb
+                ab=zb(5586)
+            elseif ab==1685186638+-1685157563 then
+                Sb='\184#U'
+                ab=zb(18367)
+            elseif ab==-98115152+98127227 then
+                Sb=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)('\251_+\217t<','\184\25Y')]=Ya;
-                bc=K(-23657)
-            elseif bc==8.5098305477838131e-06*-1984645864 then
-                Ya=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                    return H
+                end)(Sb,wa))
+                ab=-1401093186+1401105608
+            elseif ab==-21779223070024/-2042312741 then
+                Sb='\16\250\232\29'
+                ab=-31222510452120/-1636056930
+            elseif ab==591895006-591867683 then
+                hb='\226\175\152>\192\164\141)\211'
+                ab=6389106596110/344816590
+            elseif ab==-142451114+142471523 then
+                hb="\251e\'\217N0"
+                ab=zb(-2483)
+            elseif ab==752840617-752812733 then
+                k='\216\140\53\238\167'
+                ab=5806661957460/-1475644716
+            elseif ab==-9.4597997094612567e-05*-45487221 then
+                wa=wa*k
+                ab=zb(10042)
+            elseif ab==556788614-556789070 then
+                hb='H\239\242Wj\228\231@y'
+                ab=zb(-508)
+            elseif ab==-5615136312911/-331022597 then
+                hb=(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                     end
-                    return Ia
-                end)(Ya,Da))
-                bc=K(-36795)
-            elseif bc==1.3673950777164511e-05*2044690701 then
-                Da=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)(Da,Ja))
-                bc=4.6510829847524607e-05*247985255
-            elseif bc==165429894+-165449885 then
-                Da='\15]\224\217\251H\245\172\21G\226\204\197F\238\188'
-                bc=K(6123)
-            elseif bc==-808172952- -808202673 then
-                Ja=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)(Ja,bb))
-                bc=-5.3940155103273292e-06*-1244898163
-            elseif bc==-719628666- -719629320 then
-                Ya='eJ*Ga='
-                bc=K(1791)
-            elseif bc==7152457902612/613997588 then
-                Da=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)(Da,Ja))
-                bc=1516433569222/-56054174
-            elseif bc==1433061465+-1433039660 then
-                Ya=Ya+Da
-                bc=K(-7907)
-            elseif bc==33636772463520/-2059562360 then
-                Da=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)(Da,Ja))
-                bc=1389598140+-1389588089
-            elseif bc==3.9420971774250057e-06*1283834409 then
-                Ya=Fa[l(Ya[1],1,Ya[2])]
-                bc=K(-34663)
-            elseif bc==1209318706+-1209286278 then
-                bb='.W\245\16\149'
-                bc=-970000822+970030543
-            elseif bc==751650462+-751650347 then
-                Da='\138\21\253\171'
-                bc=K(-33102)
-            elseif bc==-4.5640381686755217e-06*1575797514 then
-                Ya=(function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)(Ya,Da)
-                bc=K(-50128)
-            elseif bc==-6.5399378541627584e-06*-1124934237 then
-                Da='w\205\245\173'
-                bc=K(-54844)
-            elseif bc==-2.1888503824354284e-05*1485437299 then
-                Ja=-1727105179
-                bc=K(-868)
-            elseif bc==2062378879+-2062386209 then
-                Ja='\181\203\168'
-                bc=11348366636768/405893152
-            elseif bc==-728197439+728166192 then
-                Ja='k] $'
-                bc=K(-42594)
-            elseif bc==1294733186+-1294710592 then
-                Ya=Za((function(ca,A)
-                    local Ia=''
-                    for la=0,#ca-1 do
-                        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                    end
-                    return Ia
-                end)(Ya,Da))
-                bc=1.1644452497778572e-05*1598443551
-            elseif bc==-1102191223- -1102176888 then
-                Ja=Ja*bb
-                bc=-1861342253+1861325136
-            elseif bc==-3.8189432333703546e-06*1844489318 then
-                Ya='\194\96\144\202\228z\148\207'
-                bc=K(-35896)
-            elseif bc==1522804148-1522785580 then
-                Ja='0S'
-                bc=-1419847604+1419819874
-            elseif bc==-18974032395282/1354030714 then
-                Ya=Za(Ha())
-                bc=K(-53441)
-            elseif bc==440152617+-440122429 then
+                    return H
+                end)(hb,Sb)
+                ab=5254914149121/1560711063
+            elseif ab==283425660-283427218 then
+                wa=368035631
+                ab=-2027938529- -2027945030
+            elseif ab==-1.5820522748439107e-05*576529622 then
+                hb=Ra[sa(hb[1],1,hb[2])]
+                ab=zb(3469)
+            elseif ab==-8.976687280342372e-06*-1506903335 then
+                Sb="\202\204B\'0i6\140\208\214@2\14g-\156"
+                ab=zb(16690)
+            elseif ab==-1275045734+1275025111 then
+                Sb=Sb*(wa)
+                ab=-9401154640670/-513247510
+            elseif ab==755169321-755182908 then
                 return
+            elseif ab==-735099241+735103709 then
+                hb=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(hb,Sb))
+                ab=zb(857)
+            elseif ab==-1635623144- -1635611069 then
+                Sb='i\140\217'
+                ab=zb(14841)
+            elseif ab==-233090067- -233109139 then
+                Sb=Aa[sa(Sb[1],1,Sb[2])]
+                ab=zb(-17231)
+            elseif ab==4.4927491949350885e-06*-1833843743 then
+                k=1812464749
+                ab=1.0293812365464711e-05*418018111
+            elseif ab==-29699708324988/1064276798 then
+                hb=t[sa(hb[1],1,hb[2])]
+                ab=1070616776+-1070643472
+            elseif ab==-22252309206430/-789368897 then
+                hb='\28\213{ :\207\127%'
+                ab=zb(-32214)
+            elseif ab==12614463509004/463018041 then
+                Sb=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(Sb,wa))
+                ab=zb(-11369)
+            elseif ab==-526481372+526484546 then
+                hb=da[hb]
+                ab=zb(-14511)
+            elseif ab==-1.6236488852785002e-05*1736767121 then
+                hb=(hb)[Sb]
+                ab=zb(-29659)
+            elseif ab==-106611095- -106611697 then
+                Sb='\163\30\154\245\135\24\134\242'
+                ab=-921892480- -921920302
+            elseif ab==430961327-430980058 then
+                Sb=36803563.100000001
+                ab=-1593417066- -1593415508
+            elseif ab==1.8982154560320436e-05*-1129429219 then
+                ab=zb(21914);
+                break;
+            elseif ab==-1557732300- -1557761323 then
+                wa=5.5173486852736577e-12
+                ab=705998380+-706006619
+            elseif ab==11394035751312/401735976 then
+                vb,ra=hb,Sb;
+                ab=6075053947664/-1166933144;
+            elseif ab==-493320112- -493322065 then
+                Sb='\211\57\208\241\18\199'
+                ab=zb(-20251)
+            elseif ab==4.5479931977897931e-06*944812319 then
+                Sb=da[sa(Sb[1],1,Sb[2])]
+                ab=-618314042+618303891
+            elseif ab==567720993+-567714492 then
+                Sb=Sb/wa
+                ab=zb(-33679)
+            elseif ab==-1.9113069166453111e-05*1224293168 then
+                Sb=(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(Sb,wa)
+                ab=-4.8051021415973376e-05*586855371
+            elseif ab==1.1668018336902923e-05*-1329017452 then
+                hb=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(hb,Sb))
+                ab=-5.6786204416154601e-06*1606199973
+            elseif ab==-1.8950341702570241e-05*885366621 then
+                Sb='T\160\22A'
+                ab=zb(18434)
+            elseif ab==48224809026834/1772058831 then
+                q=hb;
+                ab=1.2472296105625957e-05*-1583910439;
+            elseif ab==-1828582372- -1828578437 then
+                wa=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(wa,k))
+                ab=15134519531376/583713342
+            elseif ab==115176696-115196451 then
+                hb='@\149\155td\147\135s'
+                ab=-1.1386178821492994e-05*-936574084
+            elseif ab==-1730064981+1730092803 then
+                wa='\243q\233\156'
+                ab=6597183096525/546350567
+            elseif ab==1913566287-1913589805 then
+                wa='9\253\145\192;\223\217\188'
+                ab=35042062407044/1286230451
+            elseif ab==-1603122483- -1603113558 then
+                hb=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(hb,Sb))
+                ab=0.00011219490151244806*-248727880
+            elseif ab==44333597952942/1817993847 then
+                Sb='\v\135\147%'
+                ab=762731582+-762740507
+            elseif ab==-1205143088- -1205160664 then
+                hb=hb[sa(Sb[1],1,Sb[2])]
+                ab=zb(-39244)
+            elseif ab==9990096590359/-984149009 then
+                wa='\148\227Z\133\241\189\239A\129\213'
+                ab=-217340270- -217368154
+            elseif ab==-4540406846619/608063057 then
+                da[(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)('\\K\n~\96\29','\31\rx')]=hb;
+                ab=zb(-16311)
+            elseif ab==-1.0462045686308265e-05*-1187339491 then
+                hb=hb[sa(Sb[1],1,Sb[2])]
+                ab=zb(1661)
+            elseif ab==-577688830+577692197 then
+                hb=Aa[hb]
+                ab=zb(6383)
+            elseif ab==-12572901752136/-1246569676 then
+                wa='\144\127\162'
+                ab=zb(17943)
+            elseif ab==2.6082604477031888e-06*1738323335 then
+                if not(Ab)then
+                    ab=zb(-20697)
+                    break
+                else
+                    ab=zb(6795)
+                    break
+                end
+                ab=30794355146247/-1436370873
+            elseif ab==1666856132+-1666847927 then
+                Aa=hb;
+                if not Aa or not Aa:FindFirstChild((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)('\238Ys\247\200Cw\242','\166,\30\150'))or not Aa:FindFirstChild((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)('\192tA)\231\173.\217\218nC<\217\163\53\201','\136\1,H\137\194G\189'))then
+                    ab=zb(-30401)
+                    break
+                end
+                ab=zb(-42273)
+            elseif ab==-1163875632+1163893949 then
+                hb=hb+Sb
+                ab=zb(-6369)
+            elseif ab==-85631252342/9615007 then
+                hb=da[sa(hb[1],1,hb[2])]
+                ab=zb(-37250)
+            elseif ab==417533473+-417564449 then
+                Sb=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(Sb,wa))
+                ab=-283385302- -283389599
+            elseif ab==-1.2751270688238478e-05*1992585729 then
+                da[(function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)('\175\18\195\141\57\212','\236T\177')]=hb;
+                ab=zb(-12510)
+            elseif ab==-3.3812348833333083e-05*-636690462 then
+                hb=ta((function(ub,m)
+                    local H=''
+                    for b=0,#ub-1 do
+                        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                    end
+                    return H
+                end)(hb,Sb))
+                ab=-1719069556+1719060650
+            elseif ab==1847225407-1847198140 then
+                hb=ta(U())
+                ab=zb(-33444)
             end
         end
-    until bc==4504814652996/345434756
+    until ab==3.0222765059032757e-05*-429113616
 end);
-za:NewSlider((function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+Fa:NewSlider((function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)('\180\184D\248\222\53\217\139F\247\216)','\249\217#\150\187A'),(function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+    return H
+end)('wy\17hI@\26J\19gO\\',':\24v\6,4'),(function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)('\18g\160\242I\192y\171\212Z\245\204\145\200E\200\193\153Af7\135\14\164\53\48\163\231B\197f\171\200P\251\196\194\155\4\130\132\132\21{r\147\25\177~',"W\31\208\147\'\164\n\139\188?\148\168\177\187,\178\164\185\53\t\23\224|\197"),-241968579- -241968629,0*472317684,function(kb)
-    local Yb,zb,qb,S
-    qb,Yb={[-32145]=-21534,[-27121]=27459,[-22798]=32557,[-22619]=-19699,[9521]=30922,[-22079]=-19699,[17646]=30922,[17754]=-28701,[-920]=30922},function(Ib)
-        return qb[Ib+8587]
+    return H
+end)('\202,\141\188\142\150\159\198\150\205JBg:\131\51a;\185\241\2T#\136\237{\142\169\133\147\128\198\138\199DJ4i\194y$&\237\236G@4\157\166','\143T\253\221\224\242\236\230\254\168+&GI\234I\4\27\205\158\"3Q\233'),613240098-613240048,-0/-1910900850,function(Qa)
+    local G,T,X,Db
+    T,Db={[-25005]=1723,[-14610]=10976,[32386]=-4373,[21263]=22400,[26861]=-25582,[11662]=1723,[-20043]=1723,[32117]=-4373},function(na)
+        return T[na-961]
     end
-    zb=Yb(-9507)
+    G=Db(-19082)
     repeat
         while true do
-            if zb==23606941002237/-1144912023 then
-                S=eb()
-                zb=Yb(-31206)
-            elseif zb==2.4906678346679543e-05*-790912370 then
-                zb=Yb(9167);
+            if G==-4.5959795600467089e-06*951483779 then
+                G=Db(-13649);
                 break;
-            elseif zb==389487935+-389457013 then
-                V=kb;
-                zb=-9.6430132728447567e-06*2138232046;
+            elseif G==-3424887137256/-349513944 then
+                X=sb()
+                G=Db(33078)
+            elseif G==-394558926022/-228995314 then
+                aa=Qa;
+                G=1858475050-1858465251;
             end
         end
-    until zb==7369678954692/-256774292
+    until G==-1876311233- -1876322209
 end);
-Pa:NewToggle((function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+d:NewToggle((function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)('\128*=(\23\243\24\55\"\0\167','\211ZXMs'),(function(ca,A)
-    local Ia=''
-    for la=0,#ca-1 do
-        Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+    return H
+end)("z\17\'\215\21\t#-\221\2]",')aB\178q'),(function(ub,m)
+    local H=''
+    for b=0,#ub-1 do
+        H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
     end
-    return Ia
-end)('\245HF\22\26\133D\28\252\232\133\183\5\22E,\182\213\1]\28S\141LN\199\230\152\184s\17I7\170\211','\161!(o:\227+n\139\137\247\211%t*C\197'),function(pa)
-    s=pa;
+    return H
+end)('8{!v\168A\29\140\229\177[R4\253X\216)\24\50:|\225I\21\222\222\191F]B\250T\195\53\30',"l\18O\15\136\'r\254\146\208)6\20\159\55\183Z"),function(lb)
+    wb=lb;
 end);
-local sa,Fb,cc,La,q,ib,u,_
-cc,_={[17324]=-6201,[31731]=16739,[10502]=5335,[981]=-18382,[-19399]=-29878,[-7629]=-6534,[-23606]=-18382,[2135]=18668,[-12519]=-15771,[5293]=-3866,[-25184]=23701,[20850]=19582,[-24609]=22536,[32393]=16739,[-17486]=-25870,[-7991]=-1143,[-3572]=-22702,[-6724]=18895,[-4371]=24860,[22124]=-2892,[27414]=20313,[-28231]=26300,[5248]=-3866,[2906]=26300,[-30712]=6284,[1605]=764,[-30610]=919,[-19316]=16739,[-27893]=-24875,[-11828]=26300,[2741]=-18382,[-27367]=10821,[-11374]=-14671,[32245]=-30826,[19270]=5111,[-12786]=2182,[-1087]=18895,[-19196]=5633,[-15917]=-30826,[3]=7600,[10753]=8688,[-7087]=18697},function(cb)
-    return cc[cb+21792]
+local Mb,cb,i,Bb,Z,Lb,ka,P
+ka,P={[-7222]=-1539,[5753]=10239,[-18335]=-30914,[-8130]=-6713,[-16683]=-30914,[22636]=21445,[-4470]=592,[15318]=-25991,[15499]=30471,[-5469]=29660,[26844]=21445,[-19766]=-6059,[30984]=32339,[-4445]=16607,[23726]=-2426,[954]=28084,[-14591]=32339,[14182]=-1147,[-21528]=12668,[-6879]=9673,[-8257]=-20852,[-9188]=-9326,[15927]=-9326,[-29904]=-8956,[-4262]=-22759,[19042]=20979,[-2078]=9673,[-27030]=15809,[-18428]=4955,[30259]=-28186,[-31154]=15063,[25092]=25205,[-7424]=-28186},function(Ja)
+    return ka[Ja+11194]
 end
-q=_(10453)
+Bb=P(4733)
 repeat
     while true do
-        if q==226267818+-226265704 then
-            La='*\1)4C\130\30\149\96\255/\19\r/(\a\205\24\130\50\205#\18'
-            q=_(-29783)
-        elseif q==-5.6585690397362497e-05*-418851477 then
-            ib='\\\184\129\174\\\222\153j\186\146[\201\144(\215\141n'
-            q=-1392134998- -1392118043
-        elseif q==911645762+-911639478 then
-            La='\185\3\210\128\237\193\145Q\132\165\131\166\a\190\51\16\232|'
-            q=629571854+-629539641
-        elseif q==-1256583594+1256565212 then
-            Fb=Cb
-            q=-19071579178024/2141430404
-        elseif q==-338753031055/96648511 then
-            sa=Fb.Connect
-            q=_(-29421)
-        elseif q==549487346-549513234 then
-            La='\171+k\167\48'
-            q=_(-19657)
-        elseif q==-19517601649689/-1787817317 then
-            u=sa(Fb,u,La,function()
-                local f,c,I,db
-                I,c={[30660]=11544,[29242]=25010,[1032]=7414,[28593]=-30712,[11203]=11544,[7710]=-64,[14036]=7414},function(hb)
-                    return I[hb-31400]
+        if Bb==9246774692814/613873378 then
+            Mb=i.NewToggle
+            Bb=P(-15639)
+        elseif Bb==-4.5021010040462217e-05*459474365 then
+            Lb=Mb(i,Lb,Z,function()
+                local I,ba,B,Tb,La,ia,_,Jb,Rb,Pb,cc,Hb,W
+                _,Tb={[18654]=-28041,[2753]=16265,[6719]=-29475,[-7645]=18041,[-7863]=8465,[-30872]=22769,[-9081]=-29915,[-25960]=-21055,[11233]=16534,[-28766]=-31059,[-26641]=11824,[-25188]=-29243,[-12718]=4332,[-21693]=21800,[20719]=-24982,[17978]=-29475,[-15444]=-24609,[-24646]=-25701,[16513]=10586,[-2746]=-10886,[28358]=24014,[-29368]=-25701,[-23687]=2822},function(fb)
+                    return _[fb+-1665]
                 end
-                f=c(42603)
+                Hb=Tb(4418)
                 repeat
                     while true do
-                        if f==326817181-326809767 then
-                            f=c(60642);
+                        if Hb==-380850985- -380822944 then
+                            ia=(function(ub,m)
+                                local H=''
+                                for b=0,#ub-1 do
+                                    H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                                end
+                                return H
+                            end)(ia,Jb)
+                            Hb=Tb(-24295)
+                        elseif Hb==-47012056116550/1766440825 then
+                            cc='\223.\183iLG\181\160\\\241\218\48\175\171[{\175-\182r^\20\185\166\\\236\219\48\188\171Gg\174'
+                            Hb=Tb(-1081)
+                        elseif Hb==3497236827510/-116905794 then
+                            cc=(function(ub,m)
+                                local H=''
+                                for b=0,#ub-1 do
+                                    H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                                end
+                                return H
+                            end)(cc,B)
+                            Hb=1.3602994998301453e-05*2144821784
+                        elseif Hb==-19214946488312/-1065071032 then
+                            Pb=(function(ub,m)
+                                local H=''
+                                for b=0,#ub-1 do
+                                    H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                                end
+                                return H
+                            end)(Pb,I)
+                            Hb=Tb(12898)
+                        elseif Hb==-57724882324425/1958435363 then
+                            ia=Ga[(function(ub,m)
+                                local H=''
+                                for b=0,#ub-1 do
+                                    H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                                end
+                                return H
+                            end)('\185m\179i','\222\f')][(function(ub,m)
+                                local H=''
+                                for b=0,#ub-1 do
+                                    H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                                end
+                                return H
+                            end)('#\n\174\202?\21\f\136\205\"','p~\207\184K')]
+                            Hb=1.307601449881701e-05*-1259328674
+                        elseif Hb==988618681+-988587907 then
+                            Jb='%1sH\138\236\185\218\29dL\175\205])k\96_\214\163\222\141+fY\188\215\24\0'
+                            Hb=Tb(-29207)
+                        elseif Hb==-8.4696355697993517e-06*1944239497 then
+                            Jb=ia.SetCore
+                            Hb=Tb(-20028)
+                        elseif Hb==2.8147922217215954e-05*587396820 then
+                            I='\132\241\168\224'
+                            Hb=388817224+-388811006
+                        elseif Hb==1.3168498591864495e-06*2142992977 then
+                            ba=(function(ub,m)
+                                local H=''
+                                for b=0,#ub-1 do
+                                    H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                                end
+                                return H
+                            end)(ba,W)
+                            Hb=-1249259915+1249248338
+                        elseif Hb==-2.295535487549311e-05*917215182 then
+                            ia=Ga[ia]
+                            Hb=87476712+-87445938
+                        elseif Hb==-675006108+675012326 then
+                            cc='\208\148'
+                            Hb=-1.7270975623960342e-05*-841469545
+                        elseif Hb==1935190499+-1935175966 then
+                            I=(function(ub,m)
+                                local H=''
+                                for b=0,#ub-1 do
+                                    H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                                end
+                                return H
+                            end)(I,cc)
+                            Hb=1759567757+-1759594371
+                        elseif Hb==-942960351+942968816 then
+                            I='\17\189\173U\228,\19\194\194;'
+                            Hb=Tb(-5980)
+                        elseif Hb==324428217-324419078 then
+                            B=(function(ub,m)
+                                local H=''
+                                for b=0,#ub-1 do
+                                    H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                                end
+                                return H
+                            end)(B,La)
+                            Hb=1246775340-1246767698
+                        elseif Hb==17189498+-17201075 then
+                            W='\253]\221X\204'
+                            Hb=-57352563730242/-2090260359
+                        elseif Hb==31409899640273/1379502817 then
+                            ba='ME\a8\249\214\150\245y\r?\204\162/'
+                            Hb=41839036668504/-1352307336
+                        elseif Hb==-34690683951231/-1280902557 then
+                            W='7Z\233\226\130\236\202\r'
+                            Hb=Tb(-22022)
+                        elseif Hb==12974135570256/444685206 then
+                            B='\21\18K\\%\14VS'
+                            Hb=-9.6411386774281882e-06*-636128180
+                        elseif Hb==1928861146-1928855013 then
+                            La='Qg9='
+                            Hb=1273289776733/139324847
+                        elseif Hb==-1499784927- -1499808941 then
+                            ia=ia(sa(Jb[1],1,Jb[2]))
+                            Hb=Tb(19643)
+                        elseif Hb==-1947381127- -1947388769 then
+                            La=-8641811135
+                            Hb=Tb(-24976)
+                        elseif Hb==1366112935+-1366144688 then
+                            La=La/Rb
+                            Hb=1518052073+-1518037848
+                        elseif Hb==-7.2644575336622083e-06*-1627650784 then
+                            Rb=-1728362227
+                            Hb=-41124870324890/1295149130
+                        elseif Hb==35567013963600/1631514402 then
+                            ba='d?\135\134\204\131\190dQ3\138\131\246\133\165c'
+                            Hb=-32587328- -32614411
+                        elseif Hb==1934999260-1934994928 then
+                            W=(function(ub,m)
+                                local H=''
+                                for b=0,#ub-1 do
+                                    H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                                end
+                                return H
+                            end)(W,Pb)
+                            Hb=1699076677+-1699072539
+                        elseif Hb==43343322839430/-1400928370 then
+                            Jb=ta((function(ub,m)
+                                local H=''
+                                for b=0,#ub-1 do
+                                    H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                                end
+                                return H
+                            end)(Jb,ba))
+                            Hb=Tb(30023)
+                        elseif Hb==-2005460475- -2005476740 then
+                            ia='j\199\181m\b\174i\192\174o\22\163'
+                            Hb=Tb(-27101)
+                        elseif Hb==11353229773350/798118086 then
+                            W={[W]=Pb,[I]=cc,[B]=La}
+                            Hb=1903694368+-1903698834
+                        elseif Hb==5604528643252/-1254932522 then
+                            ba=Jb(ia,ba,W)
+                            Hb=Tb(-27703)
+                        elseif Hb==-487731784- -487720898 then
+                            B='\143O\196\29)g\220\212|\152\180\16\214\196.\t'
+                            Hb=Tb(-7416)
+                        elseif Hb==-1.9842146877307314e-05*-1382814076 then
+                            Pb='\169\52'
+                            Hb=Tb(-11053)
+                        elseif Hb==0.00013447969746552895*30770444 then
+                            Pb='U\212\222\54\139^w\226\142R\127\214\141\22\139\\z\167\166\26'
+                            Hb=Tb(-6198)
+                        elseif Hb==670960595-670991654 then
+                            Jb='\25\162\193\14d\199'
+                            Hb=Tb(20319)
+                        elseif Hb==-1588359151+1588333450 then
+                            Hb=Tb(18178);
                             break;
-                        elseif f==-13302784296048/-1152354842 then
-                            db=Na()
-                            f=c(45436)
                         end
                     end
-                until f==-1004597779+1004622789
+                until Hb==-13068723803452/-1234528982
             end)
-            q=_(-16544)
-        elseif q==-665303317+665290403 then
-            La='\b\215\230\201\48\187\185)\219\252\15\166\229K\191\173\1\50\152\201\219\49\191\247\5\211\246\t\166\255\\\135\236\28('
-            q=_(-46976)
-        elseif q==-1013072943- -1013075239 then
-            La='\216\50\188\130\219\224\149\128D\139W\164\173\183k0\19\245s\16\127\229Up\169\51\18&\137\163\254\176\254\26\170\20\176\131\195\234\146\128G\130\27\241\140\156F~\16\186j\26v\242U#\224/W/\137\191\226\173\227S\164'
-            q=_(-41191)
-        elseif q==-1093015048- -1093017230 then
-            u=sa(Fb,u,La,function(ha)
-                U=ha;
-            end)
-            q=_(-45398)
-        elseif q==1483434956-1483426268 then
-            u='\253j\161\225\143\173\244q\203\208\247\134h\216\19R\135\t\215g\161\160\197\136\227#\225\211\230\212t\215Q|\141U'
-            q=_(-52504)
-        elseif q==-10570808857232/-1392361546 then
-            u=(function(ca,A)
-                local Ia=''
-                for la=0,#ca-1 do
-                    Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+            Bb=P(-18618)
+        elseif Bb==-1.0393210763695003e-05*1610089546 then
+            Lb=Mb(i,Lb,Z,function()
+                local l,oa,ya,x
+                ya,l={[16849]=-24925,[-20735]=-24925,[3003]=18762,[15625]=-14756,[642]=-14756,[25423]=-22804},function(qa)
+                    return ya[qa+23229]
                 end
-                return Ia
-            end)(u,La)
-            q=-4.2739982927372503e-05*302152671
-        elseif q==3376709404107/770762247 then
-            u='\234^\31\200\16\236^\n\213T'
-            q=1551477657+-1551503545
-        elseif q==-9575445292484/-297254068 then
-            u=(function(ca,A)
-                local Ia=''
-                for la=0,#ca-1 do
-                    Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                end
-                return Ia
-            end)(u,La)
-            q=1.3304165434010533e-06*1725775293
-        elseif q==-388012609+388017944 then
-            La='\150\152\2\153\144\164\220\14'
-            q=1767809763-1767802171
-        elseif q==-2.2778933037249023e-05*1092017785 then
-            u=(function(ca,A)
-                local Ia=''
-                for la=0,#ca-1 do
-                    Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                end
-                return Ia
-            end)(u,La)
-            q=3353549214596/1586352514
-        elseif q==524038928-524054699 then
-            sa=Fb.NewToggle
-            q=-1659874670- -1659876733
-        elseif q==-6.647857093937058e-07*-1382400354 then
-            u=sa(Fb,u,La,function()
-                local G,Nb,fb,Ea,ya,Ob,Xb,ra,Pb,tb,ka,Gb,fc
-                fc,Pb={[7663]=-22967,[27193]=-2128,[4309]=-22967,[-30182]=-26904,[-19835]=18707,[16260]=-24641,[31852]=-26714,[-21213]=-28190,[4291]=-19530,[29443]=-29650,[8106]=-26670,[-17740]=29915,[29916]=-11459,[-5178]=-26670,[15445]=28378,[29461]=6975,[2832]=-19079,[15325]=-6161,[15568]=-20313,[-26292]=-12066,[9229]=28099,[19171]=-27352,[-26184]=3671,[-20606]=-7159,[4686]=5312},function(ba)
-                    return fc[ba-24681]
-                end
-                ra=Pb(27513)
+                oa=l(-22587)
                 repeat
                     while true do
-                        if ra==-0.0031378756408943871*-6417399 then
-                            ka={[ka]=tb,[Nb]=Gb,[fb]=Ea}
-                            ra=-1942884236+1942903894
-                        elseif ra==-1245674980- -1245694638 then
-                            G=ya(Xb,G,ka)
-                            ra=Pb(32344)
-                        elseif ra==-1766981231168/-332639539 then
-                            Xb=Xb(l(ya[1],1,ya[2]))
-                            ra=Pb(32787)
-                        elseif ra==33715835954640/-1726361288 then
-                            fb=(function(ca,A)
-                                local Ia=''
-                                for la=0,#ca-1 do
-                                    Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                                end
-                                return Ia
-                            end)(fb,Ea)
-                            ra=39923399124701/1824569221
-                        elseif ra==5.1205730603076602e-05*528436948 then
-                            Xb=(function(ca,A)
-                                local Ia=''
-                                for la=0,#ca-1 do
-                                    Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                                end
-                                return Ia
-                            end)(Xb,ya)
-                            ra=-2.2738417933807389e-05*-978784015
-                        elseif ra==-4.6986052894442656e-06*1555567993 then
-                            Gb='\143N'
-                            ra=Pb(40006)
-                        elseif ra==-27298337370287/1342959481 then
-                            ka='X\161\246<\245\53\186\48'
-                            ra=Pb(54597)
-                        elseif ra==-598064667+598044354 then
-                            ya='\"\191\196\230\148y\16\141\151\250K\235\19\203.\229\215\241\200\54w\218\161\248^\248\t\142\a'
-                            ra=Pb(4846)
-                        elseif ra==-1.4051890650300004e-05*-2024567420 then
-                            tb=(function(ca,A)
-                                local Ia=''
-                                for la=0,#ca-1 do
-                                    Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                                end
-                                return Ia
-                            end)(tb,Nb)
-                            ra=Pb(6941)
-                        elseif ra==-7.0017982308019517e-05*328015736 then
-                            ra=Pb(56533);
+                        if oa==-963384312- -963369556 then
+                            x=ic()
+                            oa=l(-6380)
+                        elseif oa==5019349566225/-201378117 then
+                            oa=l(2194);
                             break;
-                        elseif ra==10873735223625/1558958455 then
-                            Ob=-1050288023
-                            ra=Pb(40126)
-                        elseif ra==778284318+-778265611 then
-                            G='J\203\176\150\231C?\162\243\147\56\136|\185'
-                            ra=-560452317+560431907
-                        elseif ra==1.2280194470158155e-05*-953405097 then
-                            G='\v\196\152X\187Z\206Y>\200\149]\129\\\213^'
-                            ra=2066008607-2066028934
-                        elseif ra==2506766430056/88334852 then
-                            Ea=Ea/Ob
-                            ra=-1655492872+1655513009
-                        elseif ra==227877776-227896855 then
-                            Xb='\204\145S\169\"R\207\150H\171<_'
-                            ra=286816198+-286844554
-                        elseif ra==-19075878939348/672728133 then
-                            ya="\191\244\'\202N;"
-                            ra=8.2743358165198458e-05*327023227
-                        elseif ra==1800622722-1800624850 then
-                            ya=Xb.SetCore
-                            ra=1134055552-1134067260
-                        elseif ra==-7.2388901860927315e-06*1582977460 then
-                            G=(function(ca,A)
-                                local Ia=''
-                                for la=0,#ca-1 do
-                                    Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                                end
-                                return Ia
-                            end)(G,ka)
-                            ra=1994278821-1994249397
-                        elseif ra==1575687174-1575679150 then
-                            ka=(function(ca,A)
-                                local Ia=''
-                                for la=0,#ca-1 do
-                                    Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                                end
-                                return Ia
-                            end)(ka,tb)
-                            ra=Pb(40941)
-                        elseif ra==-9648113- -9677537 then
-                            ka='\14\200.\205?'
-                            ra=Pb(-1503)
-                        elseif ra==1361932478-1361957119 then
-                            tb='\193Vyd\15\184)\173\145\204\235T*D\15\186$\232\185\132'
-                            ra=Pb(3468)
-                        elseif ra==56870513238100/1901070140 then
-                            Nb='\219+\247:'
-                            ra=-645858041+645850732
-                        elseif ra==1.4036827944746503e-05*-1454032213 then
-                            ya=Za((function(ca,A)
-                                local Ia=''
-                                for la=0,#ca-1 do
-                                    Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                                end
-                                return Ia
-                            end)(ya,G))
-                            ra=Pb(29367)
-                        elseif ra==-1.4078573443800904e-05*-1995869831 then
-                            fb='\150\127\56K\166c%D'
-                            ra=1.1477630633985364e-05*1608868641
-                        elseif ra==2.587119300417213e-05*845766950 then
-                            Ea=-5251440115
-                            ra=Pb(54142)
-                        elseif ra==366581313-366577642 then
-                            tb='Z\161'
-                            ra=2.5619008517614724e-05*313204939
-                        elseif ra==0.00014604689817252124*-182612574 then
-                            Xb=b[(function(ca,A)
-                                local Ia=''
-                                for la=0,#ca-1 do
-                                    Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                                end
-                                return Ia
-                            end)('\244\175\254\171','\147\206')][(function(ca,A)
-                                local Ia=''
-                                for la=0,#ca-1 do
-                                    Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                                end
-                                return Ia
-                            end)('\250w\239\175M\204q\201\168P','\169\3\142\221\57')]
-                            ra=Pb(51874)
-                        elseif ra==3.4848774078662479e-05*-808923721 then
-                            Nb='\133?\n\a\96\202M\141\221\165'
-                            ra=-44539359015798/-1565586102
-                        elseif ra==16654957714512/748335627 then
-                            Xb=b[Xb]
-                            ra=Pb(40249)
-                        elseif ra==-895858023- -895844830 then
-                            Gb="\'Kkp\148\156\220F+\231^\132\167C\133\215WHjk\134\207\208@+\250_\132\180C\153\203V"
-                            ra=Pb(-5501)
-                        elseif ra==-1666611031+1666629497 then
-                            Ea='\210\nJ*'
-                            ra=Pb(28972)
-                        elseif ra==1368890209+-1368917113 then
-                            fb='w*\24\4\241\188\181\50\v\142\48\164\222,\240\165'
-                            ra=-27170583196980/1536884620
-                        elseif ra==2.7299610121912842e-05*-647591666 then
-                            Gb=(function(ca,A)
-                                local Ia=''
-                                for la=0,#ca-1 do
-                                    Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                                end
-                                return Ia
-                            end)(Gb,fb)
-                            ra=Pb(33910)
-                        elseif ra==-2.2686800885158623e-05*271567597 then
-                            Nb=(function(ca,A)
-                                local Ia=''
-                                for la=0,#ca-1 do
-                                    Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                                end
-                                return Ia
-                            end)(Nb,Gb)
-                            ra=-7416873221166/562182462
                         end
                     end
-                until ra==-1131693163- -1131666449
+                until oa==1252642548-1252665352
             end)
-            q=_(-22879)
-        elseif q==9.2910602946422448e-05*267569031 then
-            u='fH>AN?F'
-            q=15440250-15422469
-        elseif q==405205847+-405222802 then
-            La=(function(ca,A)
-                local Ia=''
-                for la=0,#ca-1 do
-                    Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+            Bb=P(-13272)
+        elseif Bb==461724456-461755370 then
+            i=Ra[(function(ub,m)
+                local H=''
+                for b=0,#ub-1 do
+                    H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                 end
-                return Ia
-            end)(La,ib)
-            q=_(-25364)
-        elseif q==-710254549- -710256612 then
-            u="\215\246v\240\176\226\189b\250\184*\219\213\240\157\'"
-            q=_(-11290)
-        elseif q==1758716786-1758739488 then
-            u=sa(Fb,u,La,function(Ka)
-                local va,Sb,B,E,Eb,Zb
-                Zb,Eb={[28852]=-8617,[12691]=-12157,[-15385]=-29667,[8746]=-15012,[-6538]=-15012,[29374]=111,[-7186]=-19141,[1161]=-23932,[-20633]=22968,[25324]=22968,[-19038]=-18629,[17407]=-12560,[-11161]=-12560,[32531]=-3270,[-14577]=-16884,[-30967]=-19141,[15085]=-12560,[955]=-31242,[-32563]=-7113,[-2792]=-19141,[15357]=-19141,[23509]=-31242},function(Kb)
-                    return Zb[Kb+-2759]
+                return H
+            end)('\176\240\178n\141\142\\\150\234\146x\136\136L','\243\152\211\28\236\237(')]
+            Bb=P(-38224)
+        elseif Bb==343888091-343883136 then
+            Z='\161\18\157\160\5\28\4\5\144\142\132\152\30\155\188AS\2\18\194\188\136\153'
+            Bb=814716327-814747756
+        elseif Bb==-2016594537+2016577540 then
+            Z=(function(ub,m)
+                local H=''
+                for b=0,#ub-1 do
+                    H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                 end
-                va=Eb(-8402)
+                return H
+            end)(Z,cb)
+            Bb=1.6694790143372657e-05*-1239069184
+        elseif Bb==424767439-424750832 then
+            Lb='\229\r\223Y%C(\152\200C\131r@Q\b\221'
+            Bb=-1286833329- -1286848437
+        elseif Bb==23400265490602/-776540303 then
+            cb='\198\135\170\171\153\232RS\127\165qFqc\238\54\17\160f&\188($\181{o\134\180\27\148\4h\201\22'
+            Bb=303984432+-304012228
+        elseif Bb==802232401-802263545 then
+            Mb=i.NewButton
+            Bb=P(-19324)
+        elseif Bb==-20399460294349/-1290370061 then
+            Mb=i.Connect
+            Bb=-1316134960+1316132860
+        elseif Bb==1929523553-1929508445 then
+            Z='\164c\171\48\5\5I\244'
+            Bb=P(-30960)
+        elseif Bb==1475366816+-1475352055 then
+            Z='\148\226\199\196\239\141!s\30\201\29f>,\172\22w\207\nB\217ZW\149\18\1\166\215t\225v\28\186\56\230\196\203\197\247\135&s\29\192Q3\31\a\129Xt\128\19H\208MW\198[\29\227\222t\253j\1\167q\232'
+            Bb=4.7211694686780308e-05*-638274059
+        elseif Bb==-1.3623452961027554e-05*537602326 then
+            Mb=i.NewToggle
+            Bb=90605004+-90612298
+        elseif Bb==-407018597+406992242 then
+            Lb=Mb(i,Lb,Z,function(ea)
+                local N,_a,V,z,qb,ca
+                V,qb={[-29957]=22968,[19942]=-18231,[-26826]=18215,[16458]=31344,[21577]=12522,[28078]=31344,[-1853]=4404,[5661]=-13557,[21855]=22968,[-20001]=22968,[15893]=10980,[4118]=22353,[24750]=11753,[12420]=-29982,[-7825]=-19033,[10332]=-29982,[-2585]=16610},function(ha)
+                    return V[ha+3301]
+                end
+                ca=qb(-23302)
                 repeat
                     while true do
-                        if va==-2.3222213072677841e-05*-851469235 then
-                            E=Fa[l(E[1],1,E[2])]
-                            va=Eb(-17874)
-                        elseif va==-21604031608104/-940614403 then
-                            Sb=E;
-                            if not(Sb and Sb:FindFirstChild((function(ca,A)
-                                local Ia=''
-                                for la=0,#ca-1 do
-                                    Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                        if ca==-9.4057620229551604e-06*1938279956 then
+                            z='r \193\50'
+                            ca=-1582094888- -1582122229
+                        elseif ca==199929181-199959163 then
+                            _a[(function(ub,m)
+                                local H=''
+                                for b=0,#ub-1 do
+                                    H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                                 end
-                                return Ia
-                            end)((function(ca,A)
-                                local Ia=''
-                                for la=0,#ca-1 do
-                                    Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                                return H
+                            end)('Q\175\167\238\156\128\3\201K\181\165\251\162\142\24\217','\25\218\202\143\242\239j\173')][(function(ub,m)
+                                local H=''
+                                for b=0,#ub-1 do
+                                    H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                                 end
-                                return Ia
-                            end)('\194\190\n\247\228\151\214E\216\164\b\226\218\153\205U','\199\248\29\145x\183\196w'),(function(ca,A)
-                                local Ia=''
-                                for la=0,#ca-1 do
-                                    Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                                return H
+                            end)('\235l\234\193\199x\231\253','\168\r\132\149')]=N;
+                            ca=qb(12592)
+                        elseif ca==-892033386+892051601 then
+                            N=not ea
+                            ca=qb(9119)
+                        elseif ca==8490789+-8509822 then
+                            N='1H\160@\19C\181W\0'
+                            ca=qb(16641)
+                        elseif ca==-54290692055472/-1732092013 then
+                            _a=N;
+                            if _a and _a:FindFirstChild((function(ub,m)
+                                local H=''
+                                for b=0,#ub-1 do
+                                    H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                                 end
-                                return Ia
-                            end)('\2\255\200\241\189\131\201\160','O\204\178\246'))))then
-                                va=Eb(-28208)
-                                break
-                            else
-                                va=Eb(26268)
+                                return H
+                            end)('\b\229\153\231}\22\253 \18\255\155\242C\24\230\48','@\144\244\134\19y\148D'))then
+                                ca=qb(-30127)
                                 break
                             end
-                            va=Eb(18116)
-                        elseif va==-1.4487316098199079e-05*1165433258 then
-                            E=Za((function(ca,A)
-                                local Ia=''
-                                for la=0,#ca-1 do
-                                    Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                                end
-                                return Ia
-                            end)(E,B))
-                            va=-818004343+818024116
-                        elseif va==0.00014098931137007512*-169743364 then
-                            B='&\216\224f'
-                            va=Eb(-11818)
-                        elseif va==1.2691293370163875e-05*-1182858166 then
-                            Sb[(function(ca,A)
-                                local Ia=''
-                                for la=0,#ca-1 do
-                                    Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                                end
-                                return Ia
-                            end)('c\127\249\195\180\145\200\215ye\251\214\138\159\211\199','+\n\148\162\218\254\161\179')][(function(ca,A)
-                                local Ia=''
-                                for la=0,#ca-1 do
-                                    Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                                end
-                                return Ia
-                            end)('\2\231\153Z.\243\148f','A\134\247\14')]=E;
-                            va=Eb(-4427)
-                        elseif va==580798311+-580810871 then
-                            Vb=Ka;
-                            va=Eb(-16279);
-                        elseif va==-2084897256- -2084866014 then
-                            E=not Ka
-                            va=Eb(11505)
-                        elseif va==685238083-685256712 then
-                            E='e\176\129\20G\187\148\3T'
-                            va=Eb(3920)
-                        elseif va==-3.3473128339693679e-05*571831823 then
-                            va=Eb(35290);
+                            ca=-6.251824220956668e-06*-1756287383
+                        elseif ca==1498429905-1498407552 then
+                            N=Ra[sa(N[1],1,N[2])]
+                            ca=qb(13157)
+                        elseif ca==879193666-879182686 then
+                            ca=qb(-5154);
                             break;
+                        elseif ca==-51284560+51307528 then
+                            fa=ea;
+                            ca=qb(-11126);
+                        elseif ca==-1584473750+1584501091 then
+                            N=ta((function(ub,m)
+                                local H=''
+                                for b=0,#ub-1 do
+                                    H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                                end
+                                return H
+                            end)(N,z))
+                            ca=qb(817)
                         end
                     end
-                until va==-57221884- -57218614
+                until ca==-170353236- -170357640
             end)
-            q=_(9939)
-        elseif q==1.2592769427393097e-05*1329254863 then
-            Fb=Fa[(function(ca,A)
-                local Ia=''
-                for la=0,#ca-1 do
-                    Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+            Bb=P(-29529)
+        elseif Bb==-1421675788+1421673688 then
+            Lb=Mb(i,function(ua)
+                local r,Ha,Eb
+                r,Ha={[13685]=-15610,[-588]=5736,[20550]=-15610,[-7773]=3714,[-7355]=-23367,[7999]=-15610,[-17089]=-23937,[-10819]=5736,[-3283]=-30797},function(Ta)
+                    return r[Ta-10542]
                 end
-                return Ia
-            end)('7\127C\24\55\225\53\17ec\14\50\231%','t\23\"jV\130A')]
-            q=-765508062+765504557
-        elseif q==-1898902775- -1898901632 then
-            ib='\96n@Zc\237k\231@\187F'
-            q=-1467907432- -1467918909
-        elseif q==-9900025080380/-862596940 then
-            La=(function(ca,A)
-                local Ia=''
-                for la=0,#ca-1 do
-                    Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
-                end
-                return Ia
-            end)(La,ib)
-            q=_(-52402)
-        elseif q==42200327873954/-1412421443 then
-            ib='\138W\209\237\173\133\230\160%\231;\132\226\248)\16u\154\31t\26\151&P\192]2E\230\214\140\196\141\52'
-            q=33576092988900/-1533154931
-        elseif q==-49289625364600/-1874130242 then
-            Fb=gb
-            q=_(-33166)
-        elseif q==12629075923332/-1932824598 then
-            u=sa(Fb,function(Aa)
-                local ea,i,fa
-                i,fa={[31841]=16616,[12818]=15749,[3871]=-4265,[-9109]=16616,[-27198]=-4265,[-9835]=-7823,[13749]=16616,[13296]=-32118,[-20846]=21147,[28573]=16616,[32609]=-4265},function(Wb)
-                    return i[Wb- -12004]
-                end
-                ea=fa(814)
+                Eb=Ha(-6547)
                 repeat
                     while true do
-                        if ea==3243099999145/-760398593 then
-                            Aa:WaitForChild((function(ca,A)
-                                local Ia=''
-                                for la=0,#ca-1 do
-                                    Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                        if Eb==-11813403703500/756784350 then
+                            ua:WaitForChild((function(ub,m)
+                                local H=''
+                                for b=0,#ub-1 do
+                                    H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                                 end
-                                return Ia
-                            end)('r\208\247\216\201\t\bmh\202\245\205\247\a\19}',':\165\154\185\167fa\t'))[(function(ca,A)
-                                local Ia=''
-                                for la=0,#ca-1 do
-                                    Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                                return H
+                            end)('\133\221#\152\128\193\55\183\159\199!\141\190\207,\167','\205\168N\249\238\174^\211'))[(function(ub,m)
+                                local H=''
+                                for b=0,#ub-1 do
+                                    H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                                 end
-                                return Ia
-                            end)('\133y\242\19\169m\255/','\198\24\156G')]=false;
-                            ea=fa(19837)
-                        elseif ea==-1940266343- -1940282092 then
-                            if not(Vb)then
-                                ea=fa(-21113)
-                                break
-                            else
-                                ea=fa(-8133)
+                                return H
+                            end)('\195\209\183\3\239\197\186?','\128\176\217W')]=false;
+                            Eb=Ha(-277)
+                        elseif Eb==894824214+-894818478 then
+                            Eb=Ha(7259);
+                            break;
+                        elseif Eb==7399894353225/-309140425 then
+                            if fa then
+                                Eb=Ha(18541)
                                 break
                             end
-                            ea=fa(16569)
-                        elseif ea==33422272690568/2011451173 then
-                            ea=fa(1292);
-                            break;
+                            Eb=Ha(9954)
                         end
                     end
-                until ea==-1679743137- -1679711019
+                until Eb==-981428556+981397759
             end)
-            q=_(-18886)
-        elseif q==3.424939924238737e-05*593090695 then
-            La=(function(ca,A)
-                local Ia=''
-                for la=0,#ca-1 do
-                    Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+            Bb=P(11442)
+        elseif Bb==763192383+-763182144 then
+            Lb=(function(ub,m)
+                local H=''
+                for b=0,#ub-1 do
+                    H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                 end
-                return Ia
-            end)(La,ib)
-            q=_(-34578)
-        elseif q==2.3147191569741468e-05*-1331738233 then
-            Fb=p
-            q=3.0509515305336086e-05*-975040072
-        elseif q==1981463043-1981466909 then
-            Fb=_c
-            q=_(-34311)
-        elseif q==-175847013+175865908 then
-            q=_(332);
+                return H
+            end)(Lb,Z)
+            Bb=P(2988)
+        elseif Bb==5.1652777584996803e-06*-1805517619 then
+            i=Ya
+            Bb=4.1016351590821773e-05*-178562932
+        elseif Bb==-103757008464/-175265217 then
+            Z='.\173Q'
+            Bb=881499335-881516011
+        elseif Bb==9.8736649348521152e-06*-679889387 then
+            Lb='\f\190\214K(\224>d\173\196\193\213ED\176\231rL&\179\214\nb\197)6\135\199\208\135YK\242\201x\16'
+            Bb=1739124143040/1483894320
+        elseif Bb==-17529622163172/-1383771879 then
+            Z=(function(ub,m)
+                local H=''
+                for b=0,#ub-1 do
+                    H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                end
+                return H
+            end)(Z,cb)
+            Bb=32814667005120/-1245102144
+        elseif Bb==2452781368575/75845925 then
+            i=O
+            Bb=-7506135157536/241013844
+        elseif Bb==-3.6562779194934298e-06*1657149739 then
+            Lb=(function(ub,m)
+                local H=''
+                for b=0,#ub-1 do
+                    H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                end
+                return H
+            end)(Lb,Z)
+            Bb=976890637+-976863188
+        elseif Bb==-11625603093483/-406816779 then
+            Z='\228\247p\v+'
+            Bb=P(-5441)
+        elseif Bb==-54010005477036/1916199726 then
+            Bb=P(-15456);
             break;
-        elseif q==-144158328+144128580 then
-            sa=Fb.NewToggle
-            q=-7077412767373/-1615478833
-        elseif q==647824149+-647806368 then
-            La='\"!M'
-            q=_(-49685)
-        elseif q==31661449154556/1696027917 then
-            u=(function(ca,A)
-                local Ia=''
-                for la=0,#ca-1 do
-                    Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+        elseif Bb==-1470028937- -1470001141 then
+            Z=(function(ub,m)
+                local H=''
+                for b=0,#ub-1 do
+                    H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                 end
-                return Ia
-            end)(u,La)
-            q=_(-49159)
-        elseif q==5.1406259145353309e-06*2104996586 then
-            La='\a\148\235\22zq\227@w\20\18\165\r\20\231\50\213Y)\150\236Yyu\246[q\6\n\233\4X\224$\220G'
-            q=_(-4468)
-        elseif q==17328844119900/-791271421 then
-            La=(function(ca,A)
-                local Ia=''
-                for la=0,#ca-1 do
-                    Ia=Ia..R(ia(Mb(ca,la+1),Mb(A,la%#A+1)))
+                return H
+            end)(Z,cb)
+            Bb=127972217-127988951
+        elseif Bb==-28817817316288/1382016944 then
+            Mb=i.NewButton
+            Bb=P(-18416)
+        elseif Bb==2.1096695040436689e-05*1301104270 then
+            Z='\233\141z\252L\151\247F}\18\237b\149\r\151\230\142\211\194U\238M\147\185ju\24\235b\143\26\175\167\147\201'
+            Bb=690715481-690734194
+        elseif Bb==2718765217182/-372739953 then
+            Lb='\165\130\4d\v\163\130\17yO'
+            Bb=-535291464+535320041
+        elseif Bb==1071049739-1071021655 then
+            Lb=(function(ub,m)
+                local H=''
+                for b=0,#ub-1 do
+                    H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
                 end
-                return Ia
-            end)(La,ib)
-            q=7.000689688171467e-06*1559417784
-        elseif q==274285723+-274291924 then
-            ib='F\225\159y\23\16\151)\20u~\201t4\129]\185\53'
-            q=_(5622)
-        elseif q==2032935144-2032944050 then
-            sa=Fb.NewButton
-            q=_(-11039)
-        elseif q==1011365628+-1011380299 then
-            sa=Fb.NewButton
-            q=_(-26163)
+                return H
+            end)(Lb,Z)
+            Bb=28815340624512/1952126592
+        elseif Bb==-1809010058- -1808978629 then
+            cb='\235}\244\206%sqw\176\202\237'
+            Bb=-1955539402+1955522405
+        elseif Bb==-5.1047131297603341e-06*-254470715 then
+            cb='\175\28L2\187\206\163\201\146\159Q;9\167\130w\231%'
+            Bb=899937678+-899953756
+        elseif Bb==-1309084570062/850607258 then
+            Lb='j\196\"M\194#J'
+            Bb=P(-15664)
+        elseif Bb==-793012754+792996676 then
+            Z=(function(ub,m)
+                local H=''
+                for b=0,#ub-1 do
+                    H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                end
+                return H
+            end)(Z,cb)
+            Bb=-737558180+737589608
+        elseif Bb==30299468255628/-1816950603 then
+            Lb=(function(ub,m)
+                local H=''
+                for b=0,#ub-1 do
+                    H=H..Wa(Pa(ma(ub,b+1),ma(m,b%#m+1)))
+                end
+                return H
+            end)(Lb,Z)
+            Bb=P(-29622)
+        elseif Bb==1552905459562/-1353884446 then
+            Z='\238i8]\214\175\215\160\241\254=W@\135\228\24\139I\192k?\18\213\171\194\187\247\236%\27I\203\227\14\130W'
+            Bb=-1960139799+1960141098
+        elseif Bb==-1022151339+1022152511 then
+            Z='H\215\165*J\140[D\226\177\181\245*\"\144\165\29\57'
+            Bb=P(-10240)
+        elseif Bb==-1945689774- -1945671061 then
+            cb='\189\226\29\155 \242\215\5\28|\185\r\224n\255\198\225'
+            Bb=P(-32722)
+        elseif Bb==-42989294853450/-2004630210 then
+            i=Ib
+            Bb=P(-19451)
+        elseif Bb==1737815927+-1737806254 then
+            i=eb
+            Bb=P(-42348)
+        elseif Bb==720676079-720644651 then
+            Lb=Mb(i,Lb,Z,function(Na)
+                Ab=Na;
+            end)
+            Bb=P(-25785)
         end
     end
-until q==-317314610- -317311718
+until Bb==669396073+-669418832
