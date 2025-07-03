@@ -30,5 +30,9 @@
   {
     "name": "Free Grow a Garden Script (HAS A KEY)",
     "code": "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua\", true))()"
+  },
+  {
+    "name": "Free Keyless Steal a Morph Script (Timmy Hub)",
+    "code": "loadstring(game:HttpGet('https://raw.githubusercontent.com/WinzeTim/timmyhack2/refs/heads/main/stealamorph.lua'))()"
   }
 ]
