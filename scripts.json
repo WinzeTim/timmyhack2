@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Free Keyless Hoopz Script (Timmy Hub)",
+    "code": "loadstring(game:HttpGet('https://raw.githubusercontent.com/WinzeTim/timmyhack2/refs/heads/main/hoopzbeta.lua'))()"
+  },
+  {
+    "name": "Free Keyless Hoopz Script (EclipseHub)",
+    "code": "loadstring(game:HttpGet('https://raw.githubusercontent.com/poorguy123monkey/eclipsehub/refs/heads/main/message%20(4).txt'))()"
+  },
+  {
+    "name": "Free Keyless Arsenal Script (Manual Copy)",
+    "code": "https://github.com/WinzeTim/timmyhack2/blob/main/arsenal.lua"
+  },
+  {
+    "name": "Free Steal a Diamond Script (Timmy Hub)",
+    "code": "loadstring(game:HttpGet('https://raw.githubusercontent.com/WinzeTim/timmyhack2/refs/heads/main/stealadiamond.lua'))()"
+  },
+  {
+    "name": "Free Timebomb Duels Script",
+    "code": "loadstring(game:HttpGet('https://raw.githubusercontent.com/WinzeTim/timmyhack2/refs/heads/main/timebombduels.lua'))()"
+  },
+  {
+    "name": "Free Shoot Players off a Map Simulator Script",
+    "code": "loadstring(game:HttpGet('https://raw.githubusercontent.com/WinzeTim/timmyhack2/refs/heads/main/shootplayersoffamap.lua'))()"
+  },
+  {
+    "name": "Free Stick Battles Script (Timmy Hub)",
+    "code": "loadstring(game:HttpGet('https://raw.githubusercontent.com/WinzeTim/timmyhack2/refs/heads/main/stickbattles.lua'))()"
+  },
+  {
+    "name": "Free Grow a Garden Script (HAS A KEY)",
+    "code": "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua\", true))()"
+  }
+]
