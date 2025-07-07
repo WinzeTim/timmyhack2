@@ -4,10 +4,6 @@
     "code": "loadstring(game:HttpGet('https://raw.githubusercontent.com/poorguy123monkey/eclipsehub/refs/heads/main/message%20(4).txt'))()"
   },
   {
-    "name": "Free Keyless Hoopz Script (Timmy Hub - NO LONGER BEING WORKED ON USED ECLIPSE HUB!)",
-    "code": "loadstring(game:HttpGet('https://raw.githubusercontent.com/WinzeTim/timmyhack2/refs/heads/main/hoopzbeta.lua'))()"
-  },
-  {
     "name": "Free Keyless Arsenal Script (PASTE THIS IN YOUR BROWSER AND COPY THE SCRIPT FROM GITHUB)",
     "code": "https://github.com/WinzeTim/timmyhack2/blob/main/arsenal.lua"
   },
