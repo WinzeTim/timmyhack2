@@ -20,6 +20,10 @@
     "code": "loadstring(game:HttpGet('https://raw.githubusercontent.com/WinzeTim/timmyhack2/refs/heads/main/stealadiamond.lua'))()"
   },
   {
+    "name": "Free Steal a Pet Script",
+    "code": "loadstring(game:HttpGet('https://raw.githubusercontent.com/WinzeTim/timmyhack2/refs/heads/main/stealapet.lua'))()"
+  },
+  {
     "name": "Free Timebomb Duels Script",
     "code": "loadstring(game:HttpGet('https://raw.githubusercontent.com/WinzeTim/timmyhack2/refs/heads/main/timebombduels.lua'))()"
   },
