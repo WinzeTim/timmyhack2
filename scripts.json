@@ -16,6 +16,10 @@
     "code": "loadstring(game:HttpGet('https://raw.githubusercontent.com/WinzeTim/timmyhack2/refs/heads/main/mysingingbrainrot.lua'))()"
   },
   {
+    "name": "Build a Brainrot Script (Timmy Hub)",
+    "code": "loadstring(game:HttpGet('https://raw.githubusercontent.com/WinzeTim/timmyhack2/refs/heads/main/buildabrainrot.lua'))()"
+  },
+  {
     "name": "Free Steal a Diamond Script (Timmy Hub)",
     "code": "loadstring(game:HttpGet('https://raw.githubusercontent.com/WinzeTim/timmyhack2/refs/heads/main/stealadiamond.lua'))()"
   },
