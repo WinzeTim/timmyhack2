@@ -16,6 +16,10 @@
     "code": "loadstring(game:HttpGet('https://raw.githubusercontent.com/WinzeTim/timmyhack2/refs/heads/main/mysingingbrainrot.lua'))()"
   },
   {
+    "name": "Blade Ball Script (Timmy Hub)",
+    "code": "loadstring(game:HttpGet('https://raw.githubusercontent.com/WinzeTim/timmyhack2/refs/heads/main/bladeball.lua'))()"
+  },
+  {
     "name": "Build a Brainrot Script (Timmy Hub)",
     "code": "loadstring(game:HttpGet('https://raw.githubusercontent.com/WinzeTim/timmyhack2/refs/heads/main/buildabrainrot.lua'))()"
   },
