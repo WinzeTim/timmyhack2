@@ -1,7 +1,7 @@
 [
   {
     "name": "Free Keyless Hoopz Script (Eclipse Hub)",
-    "code": "loadstring(game:HttpGet('https://raw.githubusercontent.com/poorguy123monkey/eclipsehub/refs/heads/main/message%20(4).txt'))()"
+    "code": "loadstring(game:HttpGet('https://raw.githubusercontent.com/poorguy123monkey/eclipsehub1.3/refs/heads/main/message%20(19).txt'))()"
   },
   {
     "name": "Free Keyless Steal a Brainrot Script (MAKE SURE YOU HAVE AUTO ATTACH AND EXECUTE ON - if you dont have this feature spam attach and execute fast)",
